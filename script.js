@@ -11,15 +11,16 @@
  *
  * OUTPUT STRUCTURE:
  *   backup/
- *   └── <CONNECTION_NAME>-DD-MM-YYYY-hh-mm-ssAMPM/
- *       ├── logs/
- *       │   ├── run.log                        ← full run log for this connection
- *       │   ├── <dbName>/
- *       │   │   ├── db.log                     ← log for this database
- *       │   │   └── <schemaName>.log           ← log per schema
- *       ├── <dbName>-DD-MM-YYYY-hh-mm-ssAMPM/
- *       │   └── <schemaName>/
- *       │       └── dump_<schemaName>.dump     ← pg_dump -Fc (restore: pg_restore or DBeaver Restore)
+ *   └── <DD-MM-YYYY>AM|PM/                     ← calendar half-day layer (local time)
+ *       └── <CONNECTION_NAME>-DD-MM-YYYY-hh-mm-ssAMPM/
+ *           ├── logs/
+ *           │   ├── run.log                    ← full run log for this connection
+ *           │   ├── <dbName>/
+ *           │   │   ├── db.log                 ← log for this database
+ *           │   │   └── <schemaName>.log       ← log per schema
+ *           ├── <dbName>-DD-MM-YYYY-hh-mm-ssAMPM/
+ *           │   └── <schemaName>/
+ *           │       └── dump_<schemaName>.dump ← pg_dump -Fc (restore: pg_restore or DBeaver Restore)
  *
  * REQUIREMENTS:
  *   - Node.js (any modern version, zero npm dependencies)
@@ -169,6 +170,13 @@ function timestamp() {
   const datePart = `${pad(d.getDate())}-${pad(d.getMonth() + 1)}-${d.getFullYear()}`;
   const timePart = `${pad(h)}-${pad(d.getMinutes())}-${pad(d.getSeconds())}${ampm}`;
   return `${datePart}-${timePart}`;
+}
+
+/** One folder per local calendar half-day: DD-MM-YYYYAM or DD-MM-YYYYPM. */
+function dateAmPmFolder() {
+  const d = new Date();
+  const datePart = `${pad(d.getDate())}-${pad(d.getMonth() + 1)}-${d.getFullYear()}`;
+  return `${datePart}${d.getHours() >= 12 ? "PM" : "AM"}`;
 }
 
 function isoNow() {
@@ -442,9 +450,10 @@ function backupConnection(conn, index, total) {
   const DLINE = "═".repeat(60);
   const LINE = "─".repeat(60);
 
-  // ── Create connection folder + logs folder ─────────────────────────────────
+  // ── backup/DD-MM-YYYYAM|PM/ → connection-run folder → logs + per-DB folders ─
   const ts = timestamp();
-  const connFolder = path.join(BACKUP_ROOT, `${safeName(CONNECTION_NAME)}-${ts}`);
+  const dayFolder = path.join(BACKUP_ROOT, dateAmPmFolder());
+  const connFolder = path.join(dayFolder, `${safeName(CONNECTION_NAME)}-${ts}`);
   const logsFolder = path.join(connFolder, "logs");
   mkdirp(logsFolder);
 
@@ -465,6 +474,7 @@ function backupConnection(conn, index, total) {
   logger.info(`Connection     :  ${CONNECTION_NAME}`);
   logger.info(`Host           :  ${DB_HOST}:${DB_PORT}`);
   logger.info(`User           :  ${DB_USER}`);
+  logger.info(`Backup day     :  ${dayFolder}`);
   logger.info(`Backup folder  :  ${connFolder}`);
   logger.info(`Log file       :  ${runLogFile}`);
 
