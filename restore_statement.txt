@@ -1,0 +1,8 @@
+syntax:
+pg_restore -h <target_host> -p <port> -U <user_name> -d <db_name> -n <file.dump>
+
+
+
+
+
+pg_restore -h 159.65.197.148 -p 5432 -U rp3_dev_user -d rp3_dev -n sabio dump.dump
