@@ -1,0 +1,31 @@
+
+────────────────────────────────────────────────────────────
+  Connection: rp3_dev_beta_environment
+────────────────────────────────────────────────────────────
+[2026-03-29T18:08:46.704Z] [INFO ] Run started    :  2026-03-29T18:08:46.699Z
+[2026-03-29T18:08:46.704Z] [INFO ] Connection     :  rp3_dev_beta_environment
+[2026-03-29T18:08:46.705Z] [INFO ] Host           :  159.65.197.148:5432
+[2026-03-29T18:08:46.705Z] [INFO ] User           :  rp3_dev_user
+[2026-03-29T18:08:46.706Z] [INFO ] Backup day     :  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM
+[2026-03-29T18:08:46.707Z] [INFO ] Backup folder  :  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_dev_beta_environment-29-03-2026-11-38-46PM
+[2026-03-29T18:08:46.707Z] [INFO ] Log file       :  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_dev_beta_environment-29-03-2026-11-38-46PM\logs\run.log
+[2026-03-29T18:08:48.358Z] [INFO ] Databases on server (32): Icon_rc, KT, RpRecruiterHub, ailtire, airpv_dev, ashutest_dev, building_bones_db, clickngo_dev_db, company_b, company_b_dev_db, customwise_db, cyberminds_db, dash_dev, fireflydb, icon_fire, icon_wealth, ils, ktdb, medichem_db, oroko_db, oroko_db2, oroku, pw_dev, qrps, readme_to_recover, rosa, rp2_dev, rp3_dev, rp3_tenants_dev, tapngo_dev, tapngo_local_dev_db, trustworkistage
+[2026-03-29T18:08:48.359Z] [INFO ] Filtered to (2): rp3_dev, rp3_tenants_dev
+[2026-03-29T18:08:48.359Z] [INFO ] --- Starting database: rp3_dev
+
+────────────────────────────────────────────────────────────
+  Database: rp3_dev
+────────────────────────────────────────────────────────────
+[2026-03-29T18:08:48.361Z] [INFO ] Started   :  2026-03-29T18:08:48.361Z
+[2026-03-29T18:08:48.362Z] [INFO ] Database  :  rp3_dev
+[2026-03-29T18:08:48.362Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_dev_beta_environment-29-03-2026-11-38-46PM\rp3_dev-29-03-2026-11-38-48PM
+[2026-03-29T18:08:50.176Z] [INFO ] Schemas found (7): berkley, public, realtime, recruitpro, rp, sabio, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / berkley
+────────────────────────────────────────────────────────────
+[2026-03-29T18:08:50.190Z] [INFO ] Started  :  2026-03-29T18:08:50.190Z
+[2026-03-29T18:08:50.192Z] [INFO ] DB       :  rp3_dev
+[2026-03-29T18:08:50.192Z] [INFO ] Schema   :  berkley
+[2026-03-29T18:08:50.193Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_dev_beta_environment-29-03-2026-11-38-46PM\rp3_dev-29-03-2026-11-38-48PM\berkley
+[2026-03-29T18:08:50.194Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_dev_beta_environment-29-03-2026-11-38-46PM\rp3_dev-29-03-2026-11-38-48PM\berkley\dump_berkley.dump

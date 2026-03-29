@@ -1,0 +1,32 @@
+
+────────────────────────────────────────────────────────────
+  Database: rp3_tenants_prod
+────────────────────────────────────────────────────────────
+[2026-03-29T18:25:57.048Z] [INFO ] Started   :  2026-03-29T18:25:57.047Z
+[2026-03-29T18:25:57.048Z] [INFO ] Database  :  rp3_tenants_prod
+[2026-03-29T18:25:57.049Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_prod_environment-29-03-2026-11-51-44PM\rp3_tenants_prod-29-03-2026-11-55-57PM
+[2026-03-29T18:25:58.534Z] [INFO ] Schemas found (2): public, rp
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_tenants_prod / public
+────────────────────────────────────────────────────────────
+[2026-03-29T18:25:58.577Z] [INFO ] Started  :  2026-03-29T18:25:58.577Z
+[2026-03-29T18:25:58.579Z] [INFO ] DB       :  rp3_tenants_prod
+[2026-03-29T18:25:58.580Z] [INFO ] Schema   :  public
+[2026-03-29T18:25:58.581Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_prod_environment-29-03-2026-11-51-44PM\rp3_tenants_prod-29-03-2026-11-55-57PM\public
+[2026-03-29T18:25:58.582Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_prod_environment-29-03-2026-11-51-44PM\rp3_tenants_prod-29-03-2026-11-55-57PM\public\dump_public.dump
+[2026-03-29T18:26:14.117Z] [OK   ] Custom dump complete  |  size: 1.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_prod_environment-29-03-2026-11-51-44PM\rp3_tenants_prod-29-03-2026-11-55-57PM\public\dump_public.dump
+[2026-03-29T18:26:14.119Z] [INFO ] Finished :  2026-03-29T18:26:14.118Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_tenants_prod / rp
+────────────────────────────────────────────────────────────
+[2026-03-29T18:26:14.122Z] [INFO ] Started  :  2026-03-29T18:26:14.122Z
+[2026-03-29T18:26:14.123Z] [INFO ] DB       :  rp3_tenants_prod
+[2026-03-29T18:26:14.125Z] [INFO ] Schema   :  rp
+[2026-03-29T18:26:14.126Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_prod_environment-29-03-2026-11-51-44PM\rp3_tenants_prod-29-03-2026-11-55-57PM\rp
+[2026-03-29T18:26:14.126Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_prod_environment-29-03-2026-11-51-44PM\rp3_tenants_prod-29-03-2026-11-55-57PM\rp\dump_rp.dump
+[2026-03-29T18:26:34.121Z] [OK   ] Custom dump complete  |  size: 61.5 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\29-03-2026PM\rp3_prod_environment-29-03-2026-11-51-44PM\rp3_tenants_prod-29-03-2026-11-55-57PM\rp\dump_rp.dump
+[2026-03-29T18:26:34.123Z] [INFO ] Finished :  2026-03-29T18:26:34.122Z  |  status: OK
+[2026-03-29T18:26:34.125Z] [INFO ] Schemas backed up: 2 / 2
+[2026-03-29T18:26:34.126Z] [INFO ] Finished  :  2026-03-29T18:26:34.125Z  |  status: OK

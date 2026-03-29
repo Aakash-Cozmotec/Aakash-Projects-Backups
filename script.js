@@ -65,6 +65,7 @@ function loadEnvFile() {
  *   BACKUP_CONN_0_CONNECTION_NAME, BACKUP_CONN_0_DB_HOST, BACKUP_CONN_0_DB_PORT (optional, default 5432),
  *   BACKUP_CONN_0_DB_USER, BACKUP_CONN_0_DB_PASSWORD,
  *   BACKUP_CONN_0_DATABASES — comma-separated list, or empty / * for all non-system DBs on server.
+ *   BACKUP_CONN_0_PGSSLMODE — optional (e.g. require for managed Postgres / SSL-only hosts).
  * Repeat for BACKUP_CONN_1_*, etc.
  */
 function loadConnectionsFromEnv() {
@@ -85,6 +86,11 @@ function loadConnectionsFromEnv() {
     const DB_USER = process.env[`${pre}DB_USER`];
     const DB_PASSWORD = process.env[`${pre}DB_PASSWORD`];
     const dbsRaw = process.env[`${pre}DATABASES`];
+    const sslRaw = process.env[`${pre}PGSSLMODE`];
+    const PGSSLMODE =
+      sslRaw != null && String(sslRaw).trim() !== ""
+        ? String(sslRaw).trim()
+        : undefined;
 
     if (!CONNECTION_NAME || !DB_HOST || !DB_USER) {
       console.error(
@@ -123,6 +129,7 @@ function loadConnectionsFromEnv() {
       DB_USER,
       DB_PASSWORD,
       DATABASES,
+      PGSSLMODE,
     });
   }
   return list;
@@ -275,11 +282,12 @@ function requireTool(name) {
  * PGPASSWORD injected via env — never visible in process list.
  * Returns stdout. Throws Error with stderr on failure.
  */
-function runCmd(cmd, pgPassword) {
+function runCmd(cmd, pgPassword, pgEnvExtra = {}) {
+  const env = { ...process.env, PGPASSWORD: pgPassword || "", ...pgEnvExtra };
   const result = spawnSync(cmd, {
     shell: true,
     stdio: ["ignore", "pipe", "pipe"],
-    env: { ...process.env, PGPASSWORD: pgPassword || "" },
+    env,
   });
   if (result.status !== 0) {
     const stderr = result.stderr ? result.stderr.toString().trim() : "(no output)";
@@ -302,7 +310,8 @@ function listDatabases(conn) {
   for (const db of candidates) {
     const cmd = `psql -h "${DB_HOST}" -p ${DB_PORT} -U "${DB_USER}" -d "${db}" -t -A -c "${query}"`;
     try {
-      const stdout = runCmd(cmd, DB_PASSWORD);
+      const sslEnv = conn.PGSSLMODE ? { PGSSLMODE: conn.PGSSLMODE } : {};
+      const stdout = runCmd(cmd, DB_PASSWORD, sslEnv);
       return stdout.split("\n").map(l => l.trim()).filter(l => l && !SYSTEM_DATABASES.has(l));
     } catch (err) { lastError = err; }
   }
@@ -320,7 +329,8 @@ function listSchemas(dbName, conn) {
   ].join(" ");
 
   const cmd = `psql -h "${DB_HOST}" -p ${DB_PORT} -U "${DB_USER}" -d "${dbName}" -t -A -c "${query}"`;
-  const stdout = runCmd(cmd, DB_PASSWORD);
+  const sslEnv = conn.PGSSLMODE ? { PGSSLMODE: conn.PGSSLMODE } : {};
+  const stdout = runCmd(cmd, DB_PASSWORD, sslEnv);
   return stdout.split("\n").map(l => l.trim()).filter(Boolean);
 }
 
@@ -365,7 +375,8 @@ function backupSchema(dbName, schemaName, conn, dbFolder, runLogFile, dbLogFile)
   const dumpFile = path.join(schemaFolder, `dump_${safeName(schemaName)}.dump`);
   logger.info(`pg_dump -Fc  →  ${dumpFile}`);
   try {
-    runCmd(`pg_dump ${baseFlags} -Fc -f "${dumpFile}"`, DB_PASSWORD);
+    const sslEnv = conn.PGSSLMODE ? { PGSSLMODE: conn.PGSSLMODE } : {};
+    runCmd(`pg_dump ${baseFlags} -Fc -f "${dumpFile}"`, DB_PASSWORD, sslEnv);
     const size = fs.statSync(dumpFile).size;
     logger.ok(`Custom dump complete  |  size: ${(size / 1024).toFixed(1)} KB  |  file: ${dumpFile}`);
   } catch (err) {
