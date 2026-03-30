@@ -1,0 +1,87 @@
+
+────────────────────────────────────────────────────────────
+  Database: rp3_dev
+────────────────────────────────────────────────────────────
+[2026-03-30T09:39:08.289Z] [INFO ] Started   :  2026-03-30T09:39:08.288Z
+[2026-03-30T09:39:08.289Z] [INFO ] Database  :  rp3_dev
+[2026-03-30T09:39:08.289Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM
+[2026-03-30T09:39:09.633Z] [INFO ] Schemas found (7): berkley, public, realtime, recruitpro, rp, sabio, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / berkley
+────────────────────────────────────────────────────────────
+[2026-03-30T09:39:09.647Z] [INFO ] Started  :  2026-03-30T09:39:09.647Z
+[2026-03-30T09:39:09.648Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T09:39:09.649Z] [INFO ] Schema   :  berkley
+[2026-03-30T09:39:09.649Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\berkley
+[2026-03-30T09:39:09.650Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\berkley\dump_berkley.dump
+[2026-03-30T09:39:56.850Z] [OK   ] Custom dump complete  |  size: 993.8 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\berkley\dump_berkley.dump
+[2026-03-30T09:39:56.850Z] [INFO ] Finished :  2026-03-30T09:39:56.850Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / public
+────────────────────────────────────────────────────────────
+[2026-03-30T09:39:56.854Z] [INFO ] Started  :  2026-03-30T09:39:56.854Z
+[2026-03-30T09:39:56.855Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T09:39:56.856Z] [INFO ] Schema   :  public
+[2026-03-30T09:39:56.858Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\public
+[2026-03-30T09:39:56.859Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\public\dump_public.dump
+[2026-03-30T09:40:11.809Z] [OK   ] Custom dump complete  |  size: 41.8 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\public\dump_public.dump
+[2026-03-30T09:40:11.809Z] [INFO ] Finished :  2026-03-30T09:40:11.809Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / realtime
+────────────────────────────────────────────────────────────
+[2026-03-30T09:40:11.811Z] [INFO ] Started  :  2026-03-30T09:40:11.811Z
+[2026-03-30T09:40:11.812Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T09:40:11.813Z] [INFO ] Schema   :  realtime
+[2026-03-30T09:40:11.814Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\realtime
+[2026-03-30T09:40:11.815Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\realtime\dump_realtime.dump
+[2026-03-30T09:40:53.464Z] [OK   ] Custom dump complete  |  size: 1263.9 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\realtime\dump_realtime.dump
+[2026-03-30T09:40:53.465Z] [INFO ] Finished :  2026-03-30T09:40:53.464Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / recruitpro
+────────────────────────────────────────────────────────────
+[2026-03-30T09:40:53.469Z] [INFO ] Started  :  2026-03-30T09:40:53.468Z
+[2026-03-30T09:40:53.470Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T09:40:53.471Z] [INFO ] Schema   :  recruitpro
+[2026-03-30T09:40:53.472Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\recruitpro
+[2026-03-30T09:40:53.473Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\recruitpro\dump_recruitpro.dump
+[2026-03-30T09:41:34.485Z] [OK   ] Custom dump complete  |  size: 1298.6 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\recruitpro\dump_recruitpro.dump
+[2026-03-30T09:41:34.487Z] [INFO ] Finished :  2026-03-30T09:41:34.487Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / rp
+────────────────────────────────────────────────────────────
+[2026-03-30T09:41:34.492Z] [INFO ] Started  :  2026-03-30T09:41:34.491Z
+[2026-03-30T09:41:34.493Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T09:41:34.495Z] [INFO ] Schema   :  rp
+[2026-03-30T09:41:34.496Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\rp
+[2026-03-30T09:41:34.498Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\rp\dump_rp.dump
+[2026-03-30T09:42:16.371Z] [OK   ] Custom dump complete  |  size: 1300.4 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\rp\dump_rp.dump
+[2026-03-30T09:42:16.372Z] [INFO ] Finished :  2026-03-30T09:42:16.372Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / sabio
+────────────────────────────────────────────────────────────
+[2026-03-30T09:42:16.376Z] [INFO ] Started  :  2026-03-30T09:42:16.376Z
+[2026-03-30T09:42:16.377Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T09:42:16.378Z] [INFO ] Schema   :  sabio
+[2026-03-30T09:42:16.380Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\sabio
+[2026-03-30T09:42:16.382Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\sabio\dump_sabio.dump
+[2026-03-30T09:43:00.500Z] [OK   ] Custom dump complete  |  size: 1354.7 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\sabio\dump_sabio.dump
+[2026-03-30T09:43:00.501Z] [INFO ] Finished :  2026-03-30T09:43:00.501Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / verticalmarket
+────────────────────────────────────────────────────────────
+[2026-03-30T09:43:00.506Z] [INFO ] Started  :  2026-03-30T09:43:00.506Z
+[2026-03-30T09:43:00.507Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T09:43:00.509Z] [INFO ] Schema   :  verticalmarket
+[2026-03-30T09:43:00.511Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\verticalmarket
+[2026-03-30T09:43:00.513Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\verticalmarket\dump_verticalmarket.dump
+[2026-03-30T09:43:45.130Z] [OK   ] Custom dump complete  |  size: 1035.4 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-03-09-06-PM\rp3_dev_beta_environment-30-03-2026-03-09-06PM\rp3_dev-30-03-2026-03-09-08PM\verticalmarket\dump_verticalmarket.dump
+[2026-03-30T09:43:45.131Z] [INFO ] Finished :  2026-03-30T09:43:45.131Z  |  status: OK
+[2026-03-30T09:43:45.132Z] [INFO ] Schemas backed up: 7 / 7
+[2026-03-30T09:43:45.132Z] [INFO ] Finished  :  2026-03-30T09:43:45.132Z  |  status: OK
