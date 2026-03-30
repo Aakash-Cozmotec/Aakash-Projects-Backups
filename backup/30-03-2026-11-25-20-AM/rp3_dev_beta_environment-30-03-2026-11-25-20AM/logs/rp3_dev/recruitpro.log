@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / recruitpro
+────────────────────────────────────────────────────────────
+[2026-03-30T05:57:01.721Z] [INFO ] Started  :  2026-03-30T05:57:01.721Z
+[2026-03-30T05:57:01.722Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T05:57:01.723Z] [INFO ] Schema   :  recruitpro
+[2026-03-30T05:57:01.724Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-11-25-20-AM\rp3_dev_beta_environment-30-03-2026-11-25-20AM\rp3_dev-30-03-2026-11-25-21AM\recruitpro
+[2026-03-30T05:57:01.726Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-11-25-20-AM\rp3_dev_beta_environment-30-03-2026-11-25-20AM\rp3_dev-30-03-2026-11-25-21AM\recruitpro\dump_recruitpro.dump
+[2026-03-30T05:57:45.585Z] [OK   ] Custom dump complete  |  size: 1298.6 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-11-25-20-AM\rp3_dev_beta_environment-30-03-2026-11-25-20AM\rp3_dev-30-03-2026-11-25-21AM\recruitpro\dump_recruitpro.dump
+[2026-03-30T05:57:45.587Z] [INFO ] Finished :  2026-03-30T05:57:45.586Z  |  status: OK
