@@ -1,0 +1,65 @@
+
+────────────────────────────────────────────────────────────
+  Database: rp3_prod
+────────────────────────────────────────────────────────────
+[2026-03-30T17:25:34.539Z] [INFO ] Started   :  2026-03-30T17:25:34.539Z
+[2026-03-30T17:25:34.542Z] [INFO ] Database  :  rp3_prod
+[2026-03-30T17:25:34.543Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM
+[2026-03-30T17:25:36.274Z] [INFO ] Schemas found (5): berkley, public, rp, sabeo, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / berkley
+────────────────────────────────────────────────────────────
+[2026-03-30T17:25:36.318Z] [INFO ] Started  :  2026-03-30T17:25:36.318Z
+[2026-03-30T17:25:36.320Z] [INFO ] DB       :  rp3_prod
+[2026-03-30T17:25:36.323Z] [INFO ] Schema   :  berkley
+[2026-03-30T17:25:36.326Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\berkley
+[2026-03-30T17:25:36.329Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\berkley\dump_berkley.dump
+[2026-03-30T17:26:45.117Z] [OK   ] Custom dump complete  |  size: 900.1 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\berkley\dump_berkley.dump
+[2026-03-30T17:26:45.119Z] [INFO ] Finished :  2026-03-30T17:26:45.119Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / public
+────────────────────────────────────────────────────────────
+[2026-03-30T17:26:45.125Z] [INFO ] Started  :  2026-03-30T17:26:45.125Z
+[2026-03-30T17:26:45.129Z] [INFO ] DB       :  rp3_prod
+[2026-03-30T17:26:45.131Z] [INFO ] Schema   :  public
+[2026-03-30T17:26:45.133Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\public
+[2026-03-30T17:26:45.136Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\public\dump_public.dump
+[2026-03-30T17:27:07.223Z] [OK   ] Custom dump complete  |  size: 40.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\public\dump_public.dump
+[2026-03-30T17:27:07.225Z] [INFO ] Finished :  2026-03-30T17:27:07.225Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / rp
+────────────────────────────────────────────────────────────
+[2026-03-30T17:27:07.234Z] [INFO ] Started  :  2026-03-30T17:27:07.233Z
+[2026-03-30T17:27:07.236Z] [INFO ] DB       :  rp3_prod
+[2026-03-30T17:27:07.239Z] [INFO ] Schema   :  rp
+[2026-03-30T17:27:07.241Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\rp
+[2026-03-30T17:27:07.243Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\rp\dump_rp.dump
+[2026-03-30T17:28:06.552Z] [OK   ] Custom dump complete  |  size: 1348.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\rp\dump_rp.dump
+[2026-03-30T17:28:06.554Z] [INFO ] Finished :  2026-03-30T17:28:06.553Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / sabeo
+────────────────────────────────────────────────────────────
+[2026-03-30T17:28:06.561Z] [INFO ] Started  :  2026-03-30T17:28:06.560Z
+[2026-03-30T17:28:06.563Z] [INFO ] DB       :  rp3_prod
+[2026-03-30T17:28:06.565Z] [INFO ] Schema   :  sabeo
+[2026-03-30T17:28:06.567Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\sabeo
+[2026-03-30T17:28:06.569Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\sabeo\dump_sabeo.dump
+[2026-03-30T17:29:08.487Z] [OK   ] Custom dump complete  |  size: 1228.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\sabeo\dump_sabeo.dump
+[2026-03-30T17:29:08.489Z] [INFO ] Finished :  2026-03-30T17:29:08.488Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / verticalmarket
+────────────────────────────────────────────────────────────
+[2026-03-30T17:29:08.497Z] [INFO ] Started  :  2026-03-30T17:29:08.497Z
+[2026-03-30T17:29:08.499Z] [INFO ] DB       :  rp3_prod
+[2026-03-30T17:29:08.502Z] [INFO ] Schema   :  verticalmarket
+[2026-03-30T17:29:08.505Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\verticalmarket
+[2026-03-30T17:29:08.507Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\verticalmarket\dump_verticalmarket.dump
+[2026-03-30T17:30:07.908Z] [OK   ] Custom dump complete  |  size: 1152.5 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\verticalmarket\dump_verticalmarket.dump
+[2026-03-30T17:30:07.912Z] [INFO ] Finished :  2026-03-30T17:30:07.911Z  |  status: OK
+[2026-03-30T17:30:07.913Z] [INFO ] Schemas backed up: 5 / 5
+[2026-03-30T17:30:07.915Z] [INFO ] Finished  :  2026-03-30T17:30:07.915Z  |  status: OK

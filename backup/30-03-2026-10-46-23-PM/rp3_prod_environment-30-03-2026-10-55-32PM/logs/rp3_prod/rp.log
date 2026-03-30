@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / rp
+────────────────────────────────────────────────────────────
+[2026-03-30T17:27:07.234Z] [INFO ] Started  :  2026-03-30T17:27:07.233Z
+[2026-03-30T17:27:07.236Z] [INFO ] DB       :  rp3_prod
+[2026-03-30T17:27:07.239Z] [INFO ] Schema   :  rp
+[2026-03-30T17:27:07.241Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\rp
+[2026-03-30T17:27:07.243Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\rp\dump_rp.dump
+[2026-03-30T17:28:06.552Z] [OK   ] Custom dump complete  |  size: 1348.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_prod_environment-30-03-2026-10-55-32PM\rp3_prod-30-03-2026-10-55-34PM\rp\dump_rp.dump
+[2026-03-30T17:28:06.554Z] [INFO ] Finished :  2026-03-30T17:28:06.553Z  |  status: OK

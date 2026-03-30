@@ -1,0 +1,28 @@
+
+────────────────────────────────────────────────────────────
+  Database: rp3_dev
+────────────────────────────────────────────────────────────
+[2026-03-30T12:35:17.995Z] [INFO ] Started   :  2026-03-30T12:35:17.995Z
+[2026-03-30T12:35:17.995Z] [INFO ] Database  :  rp3_dev
+[2026-03-30T12:35:17.996Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-06-05-16-PM\rp3_dev_beta_environment-30-03-2026-06-05-16PM\rp3_dev-30-03-2026-06-05-17PM
+[2026-03-30T12:35:19.296Z] [INFO ] Schemas found (8): berkley, public, realtime, recruitpro, rp, sabeo, sabio, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / berkley
+────────────────────────────────────────────────────────────
+[2026-03-30T12:35:19.309Z] [INFO ] Started  :  2026-03-30T12:35:19.309Z
+[2026-03-30T12:35:19.310Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T12:35:19.311Z] [INFO ] Schema   :  berkley
+[2026-03-30T12:35:19.311Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-06-05-16-PM\rp3_dev_beta_environment-30-03-2026-06-05-16PM\rp3_dev-30-03-2026-06-05-17PM\berkley
+[2026-03-30T12:35:19.312Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-06-05-16-PM\rp3_dev_beta_environment-30-03-2026-06-05-16PM\rp3_dev-30-03-2026-06-05-17PM\berkley\dump_berkley.dump
+[2026-03-30T12:36:03.629Z] [OK   ] Custom dump complete  |  size: 993.8 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-06-05-16-PM\rp3_dev_beta_environment-30-03-2026-06-05-16PM\rp3_dev-30-03-2026-06-05-17PM\berkley\dump_berkley.dump
+[2026-03-30T12:36:03.630Z] [INFO ] Finished :  2026-03-30T12:36:03.630Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / public
+────────────────────────────────────────────────────────────
+[2026-03-30T12:36:03.634Z] [INFO ] Started  :  2026-03-30T12:36:03.634Z
+[2026-03-30T12:36:03.635Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T12:36:03.636Z] [INFO ] Schema   :  public
+[2026-03-30T12:36:03.637Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-06-05-16-PM\rp3_dev_beta_environment-30-03-2026-06-05-16PM\rp3_dev-30-03-2026-06-05-17PM\public
+[2026-03-30T12:36:03.640Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-06-05-16-PM\rp3_dev_beta_environment-30-03-2026-06-05-16PM\rp3_dev-30-03-2026-06-05-17PM\public\dump_public.dump

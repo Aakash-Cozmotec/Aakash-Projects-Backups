@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / realtime
+────────────────────────────────────────────────────────────
+[2026-03-30T17:17:55.739Z] [INFO ] Started  :  2026-03-30T17:17:55.738Z
+[2026-03-30T17:17:55.741Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T17:17:55.743Z] [INFO ] Schema   :  realtime
+[2026-03-30T17:17:55.745Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_dev_beta_environment-30-03-2026-10-46-23PM\rp3_dev-30-03-2026-10-46-25PM\realtime
+[2026-03-30T17:17:55.747Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_dev_beta_environment-30-03-2026-10-46-23PM\rp3_dev-30-03-2026-10-46-25PM\realtime\dump_realtime.dump
+[2026-03-30T17:19:00.773Z] [OK   ] Custom dump complete  |  size: 1263.9 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-10-46-23-PM\rp3_dev_beta_environment-30-03-2026-10-46-23PM\rp3_dev-30-03-2026-10-46-25PM\realtime\dump_realtime.dump
+[2026-03-30T17:19:00.776Z] [INFO ] Finished :  2026-03-30T17:19:00.776Z  |  status: OK
