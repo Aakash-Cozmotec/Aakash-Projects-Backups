@@ -11,7 +11,7 @@
  *
  * OUTPUT STRUCTURE:
  *   backup/
- *   └── <DD-MM-YYYY>AM|PM/                     ← calendar half-day layer (local time)
+ *   └── <DD-MM-YYYY>-<hh-mm-ss>-<AM|PM>/       ← one folder per script run (local time)
  *       └── <CONNECTION_NAME>-DD-MM-YYYY-hh-mm-ssAMPM/
  *           ├── logs/
  *           │   ├── run.log                    ← full run log for this connection
@@ -179,11 +179,16 @@ function timestamp() {
   return `${datePart}-${timePart}`;
 }
 
-/** One folder per local calendar half-day: DD-MM-YYYYAM or DD-MM-YYYYPM. */
-function dateAmPmFolder() {
+/** One folder per backup run: DD-MM-YYYY-hh-mm-ss-AM|PM (local). */
+function backupRunFolderName() {
   const d = new Date();
   const datePart = `${pad(d.getDate())}-${pad(d.getMonth() + 1)}-${d.getFullYear()}`;
-  return `${datePart}${d.getHours() >= 12 ? "PM" : "AM"}`;
+  let h = d.getHours();
+  const half = h >= 12 ? "PM" : "AM";
+  h = h % 12;
+  if (h === 0) h = 12;
+  const timePart = `${pad(h)}-${pad(d.getMinutes())}-${pad(d.getSeconds())}`;
+  return `${datePart}-${timePart}-${half}`;
 }
 
 function isoNow() {
@@ -456,15 +461,14 @@ function backupDatabase(dbName, conn, connFolder, runLogFile) {
 //  Connection backup
 // ──────────────────────────────────────────────────────────────────────────────
 
-function backupConnection(conn, index, total) {
+function backupConnection(conn, index, total, runRootFolder) {
   const { CONNECTION_NAME, DB_HOST, DB_PORT, DB_USER } = conn;
   const DLINE = "═".repeat(60);
   const LINE = "─".repeat(60);
 
-  // ── backup/DD-MM-YYYYAM|PM/ → connection-run folder → logs + per-DB folders ─
+  // ── backup/<run folder>/ → per-connection folder → logs + per-DB folders ───
   const ts = timestamp();
-  const dayFolder = path.join(BACKUP_ROOT, dateAmPmFolder());
-  const connFolder = path.join(dayFolder, `${safeName(CONNECTION_NAME)}-${ts}`);
+  const connFolder = path.join(runRootFolder, `${safeName(CONNECTION_NAME)}-${ts}`);
   const logsFolder = path.join(connFolder, "logs");
   mkdirp(logsFolder);
 
@@ -485,7 +489,7 @@ function backupConnection(conn, index, total) {
   logger.info(`Connection     :  ${CONNECTION_NAME}`);
   logger.info(`Host           :  ${DB_HOST}:${DB_PORT}`);
   logger.info(`User           :  ${DB_USER}`);
-  logger.info(`Backup day     :  ${dayFolder}`);
+  logger.info(`Run root       :  ${runRootFolder}`);
   logger.info(`Backup folder  :  ${connFolder}`);
   logger.info(`Log file       :  ${runLogFile}`);
 
@@ -625,11 +629,14 @@ function main() {
   requireTool("psql");
   requireTool("pg_dump");
   mkdirp(BACKUP_ROOT);
+  const runRootFolder = path.join(BACKUP_ROOT, backupRunFolderName());
+  mkdirp(runRootFolder);
+  console.log(`  ${C.dim}This run → ${path.relative(process.cwd(), runRootFolder)}${C.reset}\n`);
 
   const results = [];
 
   for (let i = 0; i < CONNECTIONS.length; i++) {
-    const result = backupConnection(CONNECTIONS[i], i, CONNECTIONS.length);
+    const result = backupConnection(CONNECTIONS[i], i, CONNECTIONS.length, runRootFolder);
     results.push({ label: CONNECTIONS[i].CONNECTION_NAME, ...result });
     console.log();
   }

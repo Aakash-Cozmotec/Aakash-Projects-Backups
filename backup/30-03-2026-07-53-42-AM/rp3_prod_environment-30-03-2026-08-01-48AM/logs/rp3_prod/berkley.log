@@ -1,0 +1,17 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / berkley
+────────────────────────────────────────────────────────────
+[2026-03-30T02:31:51.308Z] [INFO ] Started  :  2026-03-30T02:31:51.308Z
+[2026-03-30T02:31:51.310Z] [INFO ] DB       :  rp3_prod
+[2026-03-30T02:31:51.311Z] [INFO ] Schema   :  berkley
+[2026-03-30T02:31:51.312Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM\rp3_prod_environment-30-03-2026-08-01-48AM\rp3_prod-30-03-2026-08-01-49AM\berkley
+[2026-03-30T02:31:51.312Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM\rp3_prod_environment-30-03-2026-08-01-48AM\rp3_prod-30-03-2026-08-01-49AM\berkley\dump_berkley.dump
+[2026-03-30T02:48:09.489Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: query failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pg_dump: detail: Query was: BEGIN
+[2026-03-30T02:48:09.496Z] [INFO ] Finished :  2026-03-30T02:48:09.490Z  |  status: FAILED

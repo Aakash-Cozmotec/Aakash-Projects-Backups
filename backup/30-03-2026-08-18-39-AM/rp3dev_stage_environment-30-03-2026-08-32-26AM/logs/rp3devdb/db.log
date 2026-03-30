@@ -1,0 +1,39 @@
+
+────────────────────────────────────────────────────────────
+  Database: rp3devdb
+────────────────────────────────────────────────────────────
+[2026-03-30T03:02:27.791Z] [INFO ] Started   :  2026-03-30T03:02:27.791Z
+[2026-03-30T03:02:27.792Z] [INFO ] Database  :  rp3devdb
+[2026-03-30T03:02:27.793Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM
+[2026-03-30T03:02:29.322Z] [INFO ] Schemas found (5): berkley, public, rp, sabio, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / berkley
+────────────────────────────────────────────────────────────
+[2026-03-30T03:02:29.325Z] [INFO ] Started  :  2026-03-30T03:02:29.325Z
+[2026-03-30T03:02:29.326Z] [INFO ] DB       :  rp3devdb
+[2026-03-30T03:02:29.327Z] [INFO ] Schema   :  berkley
+[2026-03-30T03:02:29.328Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\berkley
+[2026-03-30T03:02:29.329Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\berkley\dump_berkley.dump
+[2026-03-30T03:03:35.834Z] [OK   ] Custom dump complete  |  size: 910.0 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\berkley\dump_berkley.dump
+[2026-03-30T03:03:35.835Z] [INFO ] Finished :  2026-03-30T03:03:35.835Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / public
+────────────────────────────────────────────────────────────
+[2026-03-30T03:03:35.838Z] [INFO ] Started  :  2026-03-30T03:03:35.837Z
+[2026-03-30T03:03:35.840Z] [INFO ] DB       :  rp3devdb
+[2026-03-30T03:03:35.841Z] [INFO ] Schema   :  public
+[2026-03-30T03:03:35.842Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\public
+[2026-03-30T03:03:35.842Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\public\dump_public.dump
+[2026-03-30T03:03:56.609Z] [OK   ] Custom dump complete  |  size: 1.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\public\dump_public.dump
+[2026-03-30T03:03:56.610Z] [INFO ] Finished :  2026-03-30T03:03:56.610Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / rp
+────────────────────────────────────────────────────────────
+[2026-03-30T03:03:56.613Z] [INFO ] Started  :  2026-03-30T03:03:56.613Z
+[2026-03-30T03:03:56.614Z] [INFO ] DB       :  rp3devdb
+[2026-03-30T03:03:56.615Z] [INFO ] Schema   :  rp
+[2026-03-30T03:03:56.616Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\rp
+[2026-03-30T03:03:56.616Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\rp\dump_rp.dump

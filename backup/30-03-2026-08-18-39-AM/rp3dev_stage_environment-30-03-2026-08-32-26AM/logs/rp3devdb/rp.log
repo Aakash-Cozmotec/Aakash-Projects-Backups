@@ -1,0 +1,9 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / rp
+────────────────────────────────────────────────────────────
+[2026-03-30T03:03:56.613Z] [INFO ] Started  :  2026-03-30T03:03:56.613Z
+[2026-03-30T03:03:56.614Z] [INFO ] DB       :  rp3devdb
+[2026-03-30T03:03:56.615Z] [INFO ] Schema   :  rp
+[2026-03-30T03:03:56.616Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\rp
+[2026-03-30T03:03:56.616Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3dev_stage_environment-30-03-2026-08-32-26AM\rp3devdb-30-03-2026-08-32-27AM\rp\dump_rp.dump

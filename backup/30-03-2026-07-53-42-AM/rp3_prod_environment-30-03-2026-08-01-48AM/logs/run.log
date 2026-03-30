@@ -1,0 +1,48 @@
+
+────────────────────────────────────────────────────────────
+  Connection: rp3_prod_environment
+────────────────────────────────────────────────────────────
+[2026-03-30T02:31:48.500Z] [INFO ] Run started    :  2026-03-30T02:31:48.500Z
+[2026-03-30T02:31:48.501Z] [INFO ] Connection     :  rp3_prod_environment
+[2026-03-30T02:31:48.502Z] [INFO ] Host           :  rp3-db-do-user-14077292-0.f.db.ondigitalocean.com:25060
+[2026-03-30T02:31:48.503Z] [INFO ] User           :  rp3_prod_user
+[2026-03-30T02:31:48.503Z] [INFO ] Run root       :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM
+[2026-03-30T02:31:48.504Z] [INFO ] Backup folder  :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM\rp3_prod_environment-30-03-2026-08-01-48AM
+[2026-03-30T02:31:48.505Z] [INFO ] Log file       :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM\rp3_prod_environment-30-03-2026-08-01-48AM\logs\run.log
+[2026-03-30T02:31:49.890Z] [INFO ] Databases on server (6): _dodb, defaultdb, rp3_prod, rp3_tenants_prod, rp3devdb, rp3tenantsdevdb
+[2026-03-30T02:31:49.891Z] [INFO ] Filtered to (2): rp3_prod, rp3_tenants_prod
+[2026-03-30T02:31:49.892Z] [INFO ] --- Starting database: rp3_prod
+
+────────────────────────────────────────────────────────────
+  Database: rp3_prod
+────────────────────────────────────────────────────────────
+[2026-03-30T02:31:49.895Z] [INFO ] Started   :  2026-03-30T02:31:49.895Z
+[2026-03-30T02:31:49.896Z] [INFO ] Database  :  rp3_prod
+[2026-03-30T02:31:49.897Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM\rp3_prod_environment-30-03-2026-08-01-48AM\rp3_prod-30-03-2026-08-01-49AM
+[2026-03-30T02:31:51.302Z] [INFO ] Schemas found (5): berkley, public, rp, sabeo, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / berkley
+────────────────────────────────────────────────────────────
+[2026-03-30T02:31:51.308Z] [INFO ] Started  :  2026-03-30T02:31:51.308Z
+[2026-03-30T02:31:51.310Z] [INFO ] DB       :  rp3_prod
+[2026-03-30T02:31:51.311Z] [INFO ] Schema   :  berkley
+[2026-03-30T02:31:51.312Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM\rp3_prod_environment-30-03-2026-08-01-48AM\rp3_prod-30-03-2026-08-01-49AM\berkley
+[2026-03-30T02:31:51.312Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM\rp3_prod_environment-30-03-2026-08-01-48AM\rp3_prod-30-03-2026-08-01-49AM\berkley\dump_berkley.dump
+[2026-03-30T02:48:09.489Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: query failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pg_dump: detail: Query was: BEGIN
+[2026-03-30T02:48:09.496Z] [INFO ] Finished :  2026-03-30T02:48:09.490Z  |  status: FAILED
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / public
+────────────────────────────────────────────────────────────
+[2026-03-30T02:48:09.505Z] [INFO ] Started  :  2026-03-30T02:48:09.502Z
+[2026-03-30T02:48:09.600Z] [INFO ] DB       :  rp3_prod
+[2026-03-30T02:48:09.658Z] [INFO ] Schema   :  public
+[2026-03-30T02:48:09.683Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM\rp3_prod_environment-30-03-2026-08-01-48AM\rp3_prod-30-03-2026-08-01-49AM\public
+[2026-03-30T02:48:09.690Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-07-53-42-AM\rp3_prod_environment-30-03-2026-08-01-48AM\rp3_prod-30-03-2026-08-01-49AM\public\dump_public.dump

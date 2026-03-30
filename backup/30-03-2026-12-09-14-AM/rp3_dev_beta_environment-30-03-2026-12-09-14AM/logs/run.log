@@ -1,0 +1,86 @@
+
+────────────────────────────────────────────────────────────
+  Connection: rp3_dev_beta_environment
+────────────────────────────────────────────────────────────
+[2026-03-29T18:39:14.995Z] [INFO ] Run started    :  2026-03-29T18:39:14.994Z
+[2026-03-29T18:39:14.995Z] [INFO ] Connection     :  rp3_dev_beta_environment
+[2026-03-29T18:39:14.996Z] [INFO ] Host           :  159.65.197.148:5432
+[2026-03-29T18:39:14.996Z] [INFO ] User           :  rp3_dev_user
+[2026-03-29T18:39:14.996Z] [INFO ] Run root       :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM
+[2026-03-29T18:39:14.997Z] [INFO ] Backup folder  :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM
+[2026-03-29T18:39:14.997Z] [INFO ] Log file       :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\logs\run.log
+[2026-03-29T18:39:16.962Z] [INFO ] Databases on server (32): Icon_rc, KT, RpRecruiterHub, ailtire, airpv_dev, ashutest_dev, building_bones_db, clickngo_dev_db, company_b, company_b_dev_db, customwise_db, cyberminds_db, dash_dev, fireflydb, icon_fire, icon_wealth, ils, ktdb, medichem_db, oroko_db, oroko_db2, oroku, pw_dev, qrps, readme_to_recover, rosa, rp2_dev, rp3_dev, rp3_tenants_dev, tapngo_dev, tapngo_local_dev_db, trustworkistage
+[2026-03-29T18:39:16.962Z] [INFO ] Filtered to (2): rp3_dev, rp3_tenants_dev
+[2026-03-29T18:39:16.963Z] [INFO ] --- Starting database: rp3_dev
+
+────────────────────────────────────────────────────────────
+  Database: rp3_dev
+────────────────────────────────────────────────────────────
+[2026-03-29T18:39:16.965Z] [INFO ] Started   :  2026-03-29T18:39:16.965Z
+[2026-03-29T18:39:16.965Z] [INFO ] Database  :  rp3_dev
+[2026-03-29T18:39:16.966Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM
+[2026-03-29T18:39:18.909Z] [INFO ] Schemas found (7): berkley, public, realtime, recruitpro, rp, sabio, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / berkley
+────────────────────────────────────────────────────────────
+[2026-03-29T18:39:18.952Z] [INFO ] Started  :  2026-03-29T18:39:18.952Z
+[2026-03-29T18:39:18.953Z] [INFO ] DB       :  rp3_dev
+[2026-03-29T18:39:18.954Z] [INFO ] Schema   :  berkley
+[2026-03-29T18:39:18.955Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\berkley
+[2026-03-29T18:39:18.956Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\berkley\dump_berkley.dump
+[2026-03-29T18:40:22.754Z] [OK   ] Custom dump complete  |  size: 993.8 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\berkley\dump_berkley.dump
+[2026-03-29T18:40:22.755Z] [INFO ] Finished :  2026-03-29T18:40:22.755Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / public
+────────────────────────────────────────────────────────────
+[2026-03-29T18:40:22.758Z] [INFO ] Started  :  2026-03-29T18:40:22.757Z
+[2026-03-29T18:40:22.758Z] [INFO ] DB       :  rp3_dev
+[2026-03-29T18:40:22.759Z] [INFO ] Schema   :  public
+[2026-03-29T18:40:22.760Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\public
+[2026-03-29T18:40:22.761Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\public\dump_public.dump
+[2026-03-29T18:40:45.778Z] [OK   ] Custom dump complete  |  size: 41.8 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\public\dump_public.dump
+[2026-03-29T18:40:45.780Z] [INFO ] Finished :  2026-03-29T18:40:45.779Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / realtime
+────────────────────────────────────────────────────────────
+[2026-03-29T18:40:45.783Z] [INFO ] Started  :  2026-03-29T18:40:45.782Z
+[2026-03-29T18:40:45.783Z] [INFO ] DB       :  rp3_dev
+[2026-03-29T18:40:45.785Z] [INFO ] Schema   :  realtime
+[2026-03-29T18:40:45.786Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\realtime
+[2026-03-29T18:40:45.787Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\realtime\dump_realtime.dump
+[2026-03-29T18:41:53.457Z] [OK   ] Custom dump complete  |  size: 1263.9 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\realtime\dump_realtime.dump
+[2026-03-29T18:41:53.458Z] [INFO ] Finished :  2026-03-29T18:41:53.458Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / recruitpro
+────────────────────────────────────────────────────────────
+[2026-03-29T18:41:53.461Z] [INFO ] Started  :  2026-03-29T18:41:53.461Z
+[2026-03-29T18:41:53.462Z] [INFO ] DB       :  rp3_dev
+[2026-03-29T18:41:53.463Z] [INFO ] Schema   :  recruitpro
+[2026-03-29T18:41:53.464Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\recruitpro
+[2026-03-29T18:41:53.465Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\recruitpro\dump_recruitpro.dump
+[2026-03-29T18:42:58.494Z] [OK   ] Custom dump complete  |  size: 1298.6 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\recruitpro\dump_recruitpro.dump
+[2026-03-29T18:42:58.495Z] [INFO ] Finished :  2026-03-29T18:42:58.495Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / rp
+────────────────────────────────────────────────────────────
+[2026-03-29T18:42:58.499Z] [INFO ] Started  :  2026-03-29T18:42:58.499Z
+[2026-03-29T18:42:58.500Z] [INFO ] DB       :  rp3_dev
+[2026-03-29T18:42:58.501Z] [INFO ] Schema   :  rp
+[2026-03-29T18:42:58.502Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\rp
+[2026-03-29T18:42:58.503Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\rp\dump_rp.dump
+[2026-03-29T18:44:05.477Z] [OK   ] Custom dump complete  |  size: 1299.8 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\rp\dump_rp.dump
+[2026-03-29T18:44:05.478Z] [INFO ] Finished :  2026-03-29T18:44:05.478Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / sabio
+────────────────────────────────────────────────────────────
+[2026-03-29T18:44:05.482Z] [INFO ] Started  :  2026-03-29T18:44:05.482Z
+[2026-03-29T18:44:05.483Z] [INFO ] DB       :  rp3_dev
+[2026-03-29T18:44:05.484Z] [INFO ] Schema   :  sabio
+[2026-03-29T18:44:05.484Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\sabio
+[2026-03-29T18:44:05.485Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-12-09-14-AM\rp3_dev_beta_environment-30-03-2026-12-09-14AM\rp3_dev-30-03-2026-12-09-16AM\sabio\dump_sabio.dump

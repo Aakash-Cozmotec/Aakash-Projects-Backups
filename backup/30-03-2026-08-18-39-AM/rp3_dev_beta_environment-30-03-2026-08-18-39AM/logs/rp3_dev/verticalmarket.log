@@ -1,0 +1,17 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / verticalmarket
+────────────────────────────────────────────────────────────
+[2026-03-30T02:54:45.570Z] [INFO ] Started  :  2026-03-30T02:54:45.570Z
+[2026-03-30T02:54:45.571Z] [INFO ] DB       :  rp3_dev
+[2026-03-30T02:54:45.571Z] [INFO ] Schema   :  verticalmarket
+[2026-03-30T02:54:45.572Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3_dev_beta_environment-30-03-2026-08-18-39AM\rp3_dev-30-03-2026-08-18-40AM\verticalmarket
+[2026-03-30T02:54:45.572Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\30-03-2026-08-18-39-AM\rp3_dev_beta_environment-30-03-2026-08-18-39AM\rp3_dev-30-03-2026-08-18-40AM\verticalmarket\dump_verticalmarket.dump
+[2026-03-30T02:56:22.069Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: query failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pg_dump: detail: Query was: SELECT tableoid, oid, prpubid, prrelid, NULL AS prrelqual, NULL AS prattrs FROM pg_catalog.pg_publication_rel
+[2026-03-30T02:56:22.071Z] [INFO ] Finished :  2026-03-30T02:56:22.070Z  |  status: FAILED
