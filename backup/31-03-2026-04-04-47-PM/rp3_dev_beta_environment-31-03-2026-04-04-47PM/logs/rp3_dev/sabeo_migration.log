@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / sabeo_migration
+────────────────────────────────────────────────────────────
+[2026-03-31T10:41:30.197Z] [INFO ] Started  :  2026-03-31T10:41:30.197Z
+[2026-03-31T10:41:30.199Z] [INFO ] DB       :  rp3_dev
+[2026-03-31T10:41:30.201Z] [INFO ] Schema   :  sabeo_migration
+[2026-03-31T10:41:30.204Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\31-03-2026-04-04-47-PM\rp3_dev_beta_environment-31-03-2026-04-04-47PM\rp3_dev-31-03-2026-04-04-49PM\sabeo_migration
+[2026-03-31T10:41:30.206Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\31-03-2026-04-04-47-PM\rp3_dev_beta_environment-31-03-2026-04-04-47PM\rp3_dev-31-03-2026-04-04-49PM\sabeo_migration\dump_sabeo_migration.dump
+[2026-03-31T10:42:17.704Z] [OK   ] Custom dump complete  |  size: 692.5 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\31-03-2026-04-04-47-PM\rp3_dev_beta_environment-31-03-2026-04-04-47PM\rp3_dev-31-03-2026-04-04-49PM\sabeo_migration\dump_sabeo_migration.dump
+[2026-03-31T10:42:17.705Z] [INFO ] Finished :  2026-03-31T10:42:17.705Z  |  status: OK
