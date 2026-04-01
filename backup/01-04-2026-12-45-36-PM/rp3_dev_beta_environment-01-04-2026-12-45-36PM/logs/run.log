@@ -1,0 +1,14 @@
+
+────────────────────────────────────────────────────────────
+  Connection: rp3_dev_beta_environment
+────────────────────────────────────────────────────────────
+[2026-04-01T07:15:36.696Z] [INFO ] Run started    :  2026-04-01T07:15:36.695Z
+[2026-04-01T07:15:36.696Z] [INFO ] Connection     :  rp3_dev_beta_environment
+[2026-04-01T07:15:36.697Z] [INFO ] Host           :  159.65.197.148:5432
+[2026-04-01T07:15:36.697Z] [INFO ] User           :  rp3_dev_user
+[2026-04-01T07:15:36.697Z] [INFO ] Run root       :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-36-PM
+[2026-04-01T07:15:36.709Z] [INFO ] Backup folder  :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-36-PM\rp3_dev_beta_environment-01-04-2026-12-45-36PM
+[2026-04-01T07:15:36.710Z] [INFO ] Log file       :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-36-PM\rp3_dev_beta_environment-01-04-2026-12-45-36PM\logs\run.log
+[2026-04-01T07:15:36.801Z] [ERROR] Cannot connect to server: psql: error: connection to server at "159.65.197.148", port 5432 failed: Network is unreachable (0x00002743/10051)
+	Is the server running on that host and accepting TCP/IP connections?
+[2026-04-01T07:15:36.802Z] [INFO ] Run finished   :  2026-04-01T07:15:36.802Z  |  status: FAILED

@@ -1,0 +1,17 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / app
+────────────────────────────────────────────────────────────
+[2026-04-01T07:15:51.057Z] [INFO ] Started  :  2026-04-01T07:15:51.057Z
+[2026-04-01T07:15:51.059Z] [INFO ] DB       :  rp3_dev
+[2026-04-01T07:15:51.060Z] [INFO ] Schema   :  app
+[2026-04-01T07:15:51.061Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-45-PM\rp3_dev_beta_environment-01-04-2026-12-45-45PM\rp3_dev-01-04-2026-12-45-48PM\app
+[2026-04-01T07:15:51.063Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-45-PM\rp3_dev_beta_environment-01-04-2026-12-45-45PM\rp3_dev-01-04-2026-12-45-48PM\app\dump_app.dump
+[2026-04-01T07:28:45.402Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: query failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pg_dump: detail: Query was: COPY app.p_invoice_timesheet (pit_id, invoice_id, timesheet_id, updated_by, updated_on, deleted_by, deleted_on, created_by, created_on, standard_rate, oncall_rate, weekend_rate, bankholiday_rate, standard_hours, oncall_hours, weekend_hours, bankholiday_hours, standard_rates, oncall_rates, weekend_rates, bankholiday_rates, double_rate, dedh_rate, double_hours, dedh_hours, triple_hours, triple_rate) TO stdout;
+[2026-04-01T07:28:45.409Z] [INFO ] Finished :  2026-04-01T07:28:45.403Z  |  status: FAILED

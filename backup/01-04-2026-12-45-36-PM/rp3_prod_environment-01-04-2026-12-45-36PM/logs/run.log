@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Connection: rp3_prod_environment
+────────────────────────────────────────────────────────────
+[2026-04-01T07:15:36.804Z] [INFO ] Run started    :  2026-04-01T07:15:36.804Z
+[2026-04-01T07:15:36.805Z] [INFO ] Connection     :  rp3_prod_environment
+[2026-04-01T07:15:36.805Z] [INFO ] Host           :  rp3-db-do-user-14077292-0.f.db.ondigitalocean.com:25060
+[2026-04-01T07:15:36.805Z] [INFO ] User           :  rp3_prod_user
+[2026-04-01T07:15:36.806Z] [INFO ] Run root       :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-36-PM
+[2026-04-01T07:15:36.806Z] [INFO ] Backup folder  :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-36-PM\rp3_prod_environment-01-04-2026-12-45-36PM
+[2026-04-01T07:15:36.807Z] [INFO ] Log file       :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-36-PM\rp3_prod_environment-01-04-2026-12-45-36PM\logs\run.log

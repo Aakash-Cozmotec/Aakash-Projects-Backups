@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Connection: rp3_dev_beta_environment
+────────────────────────────────────────────────────────────
+[2026-04-01T07:15:23.465Z] [INFO ] Run started    :  2026-04-01T07:15:23.465Z
+[2026-04-01T07:15:23.466Z] [INFO ] Connection     :  rp3_dev_beta_environment
+[2026-04-01T07:15:23.466Z] [INFO ] Host           :  159.65.197.148:5432
+[2026-04-01T07:15:23.466Z] [INFO ] User           :  rp3_dev_user
+[2026-04-01T07:15:23.467Z] [INFO ] Run root       :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-23-PM
+[2026-04-01T07:15:23.467Z] [INFO ] Backup folder  :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-23-PM\rp3_dev_beta_environment-01-04-2026-12-45-23PM
+[2026-04-01T07:15:23.468Z] [INFO ] Log file       :  C:\Users\ftt\working\By-Mistake\backup\01-04-2026-12-45-23-PM\rp3_dev_beta_environment-01-04-2026-12-45-23PM\logs\run.log
