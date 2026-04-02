@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / sabio
+────────────────────────────────────────────────────────────
+[2026-04-02T08:25:18.566Z] [INFO ] Started  :  2026-04-02T08:25:18.566Z
+[2026-04-02T08:25:18.569Z] [INFO ] DB       :  rp3devdb
+[2026-04-02T08:25:18.570Z] [INFO ] Schema   :  sabio
+[2026-04-02T08:25:18.572Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3dev_stage_environment-02-04-2026-01-53-50PM\rp3devdb-02-04-2026-01-53-51PM\sabio
+[2026-04-02T08:25:18.573Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3dev_stage_environment-02-04-2026-01-53-50PM\rp3devdb-02-04-2026-01-53-51PM\sabio\dump_sabio.dump
+[2026-04-02T08:26:09.270Z] [OK   ] Custom dump complete  |  size: 1304.1 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3dev_stage_environment-02-04-2026-01-53-50PM\rp3devdb-02-04-2026-01-53-51PM\sabio\dump_sabio.dump
+[2026-04-02T08:26:09.272Z] [INFO ] Finished :  2026-04-02T08:26:09.272Z  |  status: OK

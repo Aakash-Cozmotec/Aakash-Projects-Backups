@@ -1,0 +1,116 @@
+
+────────────────────────────────────────────────────────────
+  Connection: rp3_prod_environment
+────────────────────────────────────────────────────────────
+[2026-04-02T08:20:30.674Z] [INFO ] Run started    :  2026-04-02T08:20:30.674Z
+[2026-04-02T08:20:30.675Z] [INFO ] Connection     :  rp3_prod_environment
+[2026-04-02T08:20:30.676Z] [INFO ] Host           :  rp3-db-do-user-14077292-0.f.db.ondigitalocean.com:25060
+[2026-04-02T08:20:30.677Z] [INFO ] User           :  rp3_prod_user
+[2026-04-02T08:20:30.678Z] [INFO ] Run root       :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM
+[2026-04-02T08:20:30.678Z] [INFO ] Backup folder  :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM
+[2026-04-02T08:20:30.679Z] [INFO ] Log file       :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\logs\run.log
+[2026-04-02T08:20:31.784Z] [INFO ] Databases on server (6): _dodb, defaultdb, rp3_prod, rp3_tenants_prod, rp3devdb, rp3tenantsdevdb
+[2026-04-02T08:20:31.785Z] [INFO ] Filtered to (2): rp3_prod, rp3_tenants_prod
+[2026-04-02T08:20:31.785Z] [INFO ] --- Starting database: rp3_prod
+
+────────────────────────────────────────────────────────────
+  Database: rp3_prod
+────────────────────────────────────────────────────────────
+[2026-04-02T08:20:31.788Z] [INFO ] Started   :  2026-04-02T08:20:31.788Z
+[2026-04-02T08:20:31.789Z] [INFO ] Database  :  rp3_prod
+[2026-04-02T08:20:31.789Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM
+[2026-04-02T08:20:32.761Z] [INFO ] Schemas found (5): berkley, public, rp, sabeo, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / berkley
+────────────────────────────────────────────────────────────
+[2026-04-02T08:20:32.776Z] [INFO ] Started  :  2026-04-02T08:20:32.776Z
+[2026-04-02T08:20:32.777Z] [INFO ] DB       :  rp3_prod
+[2026-04-02T08:20:32.778Z] [INFO ] Schema   :  berkley
+[2026-04-02T08:20:32.780Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\berkley
+[2026-04-02T08:20:32.781Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\berkley\dump_berkley.dump
+[2026-04-02T08:21:11.091Z] [OK   ] Custom dump complete  |  size: 900.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\berkley\dump_berkley.dump
+[2026-04-02T08:21:11.092Z] [INFO ] Finished :  2026-04-02T08:21:11.092Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / public
+────────────────────────────────────────────────────────────
+[2026-04-02T08:21:11.094Z] [INFO ] Started  :  2026-04-02T08:21:11.094Z
+[2026-04-02T08:21:11.095Z] [INFO ] DB       :  rp3_prod
+[2026-04-02T08:21:11.096Z] [INFO ] Schema   :  public
+[2026-04-02T08:21:11.097Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\public
+[2026-04-02T08:21:11.098Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\public\dump_public.dump
+[2026-04-02T08:21:27.233Z] [OK   ] Custom dump complete  |  size: 40.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\public\dump_public.dump
+[2026-04-02T08:21:27.234Z] [INFO ] Finished :  2026-04-02T08:21:27.234Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / rp
+────────────────────────────────────────────────────────────
+[2026-04-02T08:21:27.236Z] [INFO ] Started  :  2026-04-02T08:21:27.236Z
+[2026-04-02T08:21:27.237Z] [INFO ] DB       :  rp3_prod
+[2026-04-02T08:21:27.238Z] [INFO ] Schema   :  rp
+[2026-04-02T08:21:27.239Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\rp
+[2026-04-02T08:21:27.240Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\rp\dump_rp.dump
+[2026-04-02T08:22:05.147Z] [OK   ] Custom dump complete  |  size: 1348.7 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\rp\dump_rp.dump
+[2026-04-02T08:22:05.148Z] [INFO ] Finished :  2026-04-02T08:22:05.148Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / sabeo
+────────────────────────────────────────────────────────────
+[2026-04-02T08:22:05.151Z] [INFO ] Started  :  2026-04-02T08:22:05.151Z
+[2026-04-02T08:22:05.152Z] [INFO ] DB       :  rp3_prod
+[2026-04-02T08:22:05.153Z] [INFO ] Schema   :  sabeo
+[2026-04-02T08:22:05.154Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\sabeo
+[2026-04-02T08:22:05.156Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\sabeo\dump_sabeo.dump
+[2026-04-02T08:22:47.794Z] [OK   ] Custom dump complete  |  size: 1330.4 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\sabeo\dump_sabeo.dump
+[2026-04-02T08:22:47.796Z] [INFO ] Finished :  2026-04-02T08:22:47.795Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / verticalmarket
+────────────────────────────────────────────────────────────
+[2026-04-02T08:22:47.800Z] [INFO ] Started  :  2026-04-02T08:22:47.800Z
+[2026-04-02T08:22:47.801Z] [INFO ] DB       :  rp3_prod
+[2026-04-02T08:22:47.803Z] [INFO ] Schema   :  verticalmarket
+[2026-04-02T08:22:47.804Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\verticalmarket
+[2026-04-02T08:22:47.806Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\verticalmarket\dump_verticalmarket.dump
+[2026-04-02T08:23:23.235Z] [OK   ] Custom dump complete  |  size: 1152.6 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_prod-02-04-2026-01-50-31PM\verticalmarket\dump_verticalmarket.dump
+[2026-04-02T08:23:23.237Z] [INFO ] Finished :  2026-04-02T08:23:23.237Z  |  status: OK
+[2026-04-02T08:23:23.239Z] [INFO ] Schemas backed up: 5 / 5
+[2026-04-02T08:23:23.239Z] [INFO ] Finished  :  2026-04-02T08:23:23.239Z  |  status: OK
+[2026-04-02T08:23:23.240Z] [INFO ] --- Finished database: rp3_prod  |  status: OK
+[2026-04-02T08:23:23.241Z] [INFO ] --- Starting database: rp3_tenants_prod
+
+────────────────────────────────────────────────────────────
+  Database: rp3_tenants_prod
+────────────────────────────────────────────────────────────
+[2026-04-02T08:23:23.242Z] [INFO ] Started   :  2026-04-02T08:23:23.242Z
+[2026-04-02T08:23:23.243Z] [INFO ] Database  :  rp3_tenants_prod
+[2026-04-02T08:23:23.243Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_tenants_prod-02-04-2026-01-53-23PM
+[2026-04-02T08:23:24.527Z] [INFO ] Schemas found (2): public, rp
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_tenants_prod / public
+────────────────────────────────────────────────────────────
+[2026-04-02T08:23:24.530Z] [INFO ] Started  :  2026-04-02T08:23:24.530Z
+[2026-04-02T08:23:24.531Z] [INFO ] DB       :  rp3_tenants_prod
+[2026-04-02T08:23:24.532Z] [INFO ] Schema   :  public
+[2026-04-02T08:23:24.533Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_tenants_prod-02-04-2026-01-53-23PM\public
+[2026-04-02T08:23:24.535Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_tenants_prod-02-04-2026-01-53-23PM\public\dump_public.dump
+[2026-04-02T08:23:36.866Z] [OK   ] Custom dump complete  |  size: 1.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_tenants_prod-02-04-2026-01-53-23PM\public\dump_public.dump
+[2026-04-02T08:23:36.867Z] [INFO ] Finished :  2026-04-02T08:23:36.867Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_tenants_prod / rp
+────────────────────────────────────────────────────────────
+[2026-04-02T08:23:36.870Z] [INFO ] Started  :  2026-04-02T08:23:36.870Z
+[2026-04-02T08:23:36.871Z] [INFO ] DB       :  rp3_tenants_prod
+[2026-04-02T08:23:36.873Z] [INFO ] Schema   :  rp
+[2026-04-02T08:23:36.873Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_tenants_prod-02-04-2026-01-53-23PM\rp
+[2026-04-02T08:23:36.874Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_tenants_prod-02-04-2026-01-53-23PM\rp\dump_rp.dump
+[2026-04-02T08:23:50.542Z] [OK   ] Custom dump complete  |  size: 61.5 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\02-04-2026-01-40-46-PM\rp3_prod_environment-02-04-2026-01-50-30PM\rp3_tenants_prod-02-04-2026-01-53-23PM\rp\dump_rp.dump
+[2026-04-02T08:23:50.543Z] [INFO ] Finished :  2026-04-02T08:23:50.542Z  |  status: OK
+[2026-04-02T08:23:50.543Z] [INFO ] Schemas backed up: 2 / 2
+[2026-04-02T08:23:50.544Z] [INFO ] Finished  :  2026-04-02T08:23:50.544Z  |  status: OK
+[2026-04-02T08:23:50.545Z] [INFO ] --- Finished database: rp3_tenants_prod  |  status: OK
+[2026-04-02T08:23:50.545Z] [INFO ] Databases backed up: 2 / 2
+[2026-04-02T08:23:50.546Z] [INFO ] Run finished   :  2026-04-02T08:23:50.546Z  |  status: OK
