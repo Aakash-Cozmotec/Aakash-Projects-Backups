@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / berkley
+────────────────────────────────────────────────────────────
+[2026-04-02T05:35:20.027Z] [INFO ] Started  :  2026-04-02T05:35:20.026Z
+[2026-04-02T05:35:20.029Z] [INFO ] DB       :  rp3devdb
+[2026-04-02T05:35:20.032Z] [INFO ] Schema   :  berkley
+[2026-04-02T05:35:20.033Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-10-50-49-AM\rp3dev_stage_environment-02-04-2026-11-05-17AM\rp3devdb-02-04-2026-11-05-18AM\berkley
+[2026-04-02T05:35:20.037Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\02-04-2026-10-50-49-AM\rp3dev_stage_environment-02-04-2026-11-05-17AM\rp3devdb-02-04-2026-11-05-18AM\berkley\dump_berkley.dump
+[2026-04-02T05:36:00.307Z] [OK   ] Custom dump complete  |  size: 910.1 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\02-04-2026-10-50-49-AM\rp3dev_stage_environment-02-04-2026-11-05-17AM\rp3devdb-02-04-2026-11-05-18AM\berkley\dump_berkley.dump
+[2026-04-02T05:36:00.310Z] [INFO ] Finished :  2026-04-02T05:36:00.309Z  |  status: OK
