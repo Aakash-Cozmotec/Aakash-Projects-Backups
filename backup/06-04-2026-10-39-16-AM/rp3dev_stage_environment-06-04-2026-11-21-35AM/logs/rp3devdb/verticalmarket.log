@@ -1,0 +1,17 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / verticalmarket
+────────────────────────────────────────────────────────────
+[2026-04-06T05:54:52.589Z] [INFO ] Started  :  2026-04-06T05:54:52.589Z
+[2026-04-06T05:54:52.590Z] [INFO ] DB       :  rp3devdb
+[2026-04-06T05:54:52.592Z] [INFO ] Schema   :  verticalmarket
+[2026-04-06T05:54:52.593Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\verticalmarket
+[2026-04-06T05:54:52.595Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\verticalmarket\dump_verticalmarket.dump
+[2026-04-06T05:59:23.649Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: query failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pg_dump: detail: Query was: SET extra_float_digits TO 3
+[2026-04-06T05:59:23.650Z] [INFO ] Finished :  2026-04-06T05:59:23.650Z  |  status: FAILED

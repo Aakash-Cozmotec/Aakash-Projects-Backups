@@ -1,0 +1,71 @@
+
+────────────────────────────────────────────────────────────
+  Database: rp3devdb
+────────────────────────────────────────────────────────────
+[2026-04-06T05:51:37.054Z] [INFO ] Started   :  2026-04-06T05:51:37.053Z
+[2026-04-06T05:51:37.055Z] [INFO ] Database  :  rp3devdb
+[2026-04-06T05:51:37.056Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM
+[2026-04-06T05:51:38.371Z] [INFO ] Schemas found (5): berkley, public, rp, sabio, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / berkley
+────────────────────────────────────────────────────────────
+[2026-04-06T05:51:38.416Z] [INFO ] Started  :  2026-04-06T05:51:38.416Z
+[2026-04-06T05:51:38.419Z] [INFO ] DB       :  rp3devdb
+[2026-04-06T05:51:38.421Z] [INFO ] Schema   :  berkley
+[2026-04-06T05:51:38.423Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\berkley
+[2026-04-06T05:51:38.426Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\berkley\dump_berkley.dump
+[2026-04-06T05:52:30.303Z] [OK   ] Custom dump complete  |  size: 909.7 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\berkley\dump_berkley.dump
+[2026-04-06T05:52:30.307Z] [INFO ] Finished :  2026-04-06T05:52:30.306Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / public
+────────────────────────────────────────────────────────────
+[2026-04-06T05:52:30.313Z] [INFO ] Started  :  2026-04-06T05:52:30.313Z
+[2026-04-06T05:52:30.315Z] [INFO ] DB       :  rp3devdb
+[2026-04-06T05:52:30.318Z] [INFO ] Schema   :  public
+[2026-04-06T05:52:30.320Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\public
+[2026-04-06T05:52:30.323Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\public\dump_public.dump
+[2026-04-06T05:52:48.148Z] [OK   ] Custom dump complete  |  size: 1.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\public\dump_public.dump
+[2026-04-06T05:52:48.150Z] [INFO ] Finished :  2026-04-06T05:52:48.150Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / rp
+────────────────────────────────────────────────────────────
+[2026-04-06T05:52:48.156Z] [INFO ] Started  :  2026-04-06T05:52:48.156Z
+[2026-04-06T05:52:48.158Z] [INFO ] DB       :  rp3devdb
+[2026-04-06T05:52:48.160Z] [INFO ] Schema   :  rp
+[2026-04-06T05:52:48.162Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\rp
+[2026-04-06T05:52:48.165Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\rp\dump_rp.dump
+[2026-04-06T05:53:54.902Z] [OK   ] Custom dump complete  |  size: 900.7 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\rp\dump_rp.dump
+[2026-04-06T05:53:54.904Z] [INFO ] Finished :  2026-04-06T05:53:54.904Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / sabio
+────────────────────────────────────────────────────────────
+[2026-04-06T05:53:54.912Z] [INFO ] Started  :  2026-04-06T05:53:54.911Z
+[2026-04-06T05:53:54.914Z] [INFO ] DB       :  rp3devdb
+[2026-04-06T05:53:54.916Z] [INFO ] Schema   :  sabio
+[2026-04-06T05:53:54.918Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\sabio
+[2026-04-06T05:53:54.922Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\sabio\dump_sabio.dump
+[2026-04-06T05:54:52.582Z] [OK   ] Custom dump complete  |  size: 1304.1 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\sabio\dump_sabio.dump
+[2026-04-06T05:54:52.584Z] [INFO ] Finished :  2026-04-06T05:54:52.584Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / verticalmarket
+────────────────────────────────────────────────────────────
+[2026-04-06T05:54:52.589Z] [INFO ] Started  :  2026-04-06T05:54:52.589Z
+[2026-04-06T05:54:52.590Z] [INFO ] DB       :  rp3devdb
+[2026-04-06T05:54:52.592Z] [INFO ] Schema   :  verticalmarket
+[2026-04-06T05:54:52.593Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\verticalmarket
+[2026-04-06T05:54:52.595Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\06-04-2026-10-39-16-AM\rp3dev_stage_environment-06-04-2026-11-21-35AM\rp3devdb-06-04-2026-11-21-37AM\verticalmarket\dump_verticalmarket.dump
+[2026-04-06T05:59:23.649Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: query failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pg_dump: detail: Query was: SET extra_float_digits TO 3
+[2026-04-06T05:59:23.650Z] [INFO ] Finished :  2026-04-06T05:59:23.650Z  |  status: FAILED
+[2026-04-06T05:59:23.651Z] [INFO ] Schemas backed up: 4 / 5
+[2026-04-06T05:59:23.651Z] [INFO ] Finished  :  2026-04-06T05:59:23.651Z  |  status: PARTIAL

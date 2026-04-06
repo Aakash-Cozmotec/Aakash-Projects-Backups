@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / app
+────────────────────────────────────────────────────────────
+[2026-04-03T13:26:11.291Z] [INFO ] Started  :  2026-04-03T13:26:11.291Z
+[2026-04-03T13:26:11.293Z] [INFO ] DB       :  rp3_dev
+[2026-04-03T13:26:11.294Z] [INFO ] Schema   :  app
+[2026-04-03T13:26:11.295Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\03-04-2026-06-56-08-PM\rp3_dev_beta_environment-03-04-2026-06-56-08PM\rp3_dev-03-04-2026-06-56-09PM\app
+[2026-04-03T13:26:11.297Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\03-04-2026-06-56-08-PM\rp3_dev_beta_environment-03-04-2026-06-56-08PM\rp3_dev-03-04-2026-06-56-09PM\app\dump_app.dump
+[2026-04-03T13:28:13.207Z] [OK   ] Custom dump complete  |  size: 37007.5 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\03-04-2026-06-56-08-PM\rp3_dev_beta_environment-03-04-2026-06-56-08PM\rp3_dev-03-04-2026-06-56-09PM\app\dump_app.dump
+[2026-04-03T13:28:13.209Z] [INFO ] Finished :  2026-04-03T13:28:13.209Z  |  status: OK
