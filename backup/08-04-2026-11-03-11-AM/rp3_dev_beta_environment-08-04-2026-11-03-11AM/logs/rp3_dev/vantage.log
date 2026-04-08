@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / vantage
+────────────────────────────────────────────────────────────
+[2026-04-08T05:43:01.986Z] [INFO ] Started  :  2026-04-08T05:43:01.986Z
+[2026-04-08T05:43:01.988Z] [INFO ] DB       :  rp3_dev
+[2026-04-08T05:43:01.989Z] [INFO ] Schema   :  vantage
+[2026-04-08T05:43:01.989Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3_dev_beta_environment-08-04-2026-11-03-11AM\rp3_dev-08-04-2026-11-03-12AM\vantage
+[2026-04-08T05:43:01.991Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3_dev_beta_environment-08-04-2026-11-03-11AM\rp3_dev-08-04-2026-11-03-12AM\vantage\dump_vantage.dump
+[2026-04-08T05:44:03.850Z] [OK   ] Custom dump complete  |  size: 1301.4 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3_dev_beta_environment-08-04-2026-11-03-11AM\rp3_dev-08-04-2026-11-03-12AM\vantage\dump_vantage.dump
+[2026-04-08T05:44:03.853Z] [INFO ] Finished :  2026-04-08T05:44:03.852Z  |  status: OK

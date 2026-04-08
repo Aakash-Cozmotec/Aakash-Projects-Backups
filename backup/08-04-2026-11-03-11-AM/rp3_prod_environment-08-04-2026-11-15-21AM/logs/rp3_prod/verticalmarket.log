@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / verticalmarket
+────────────────────────────────────────────────────────────
+[2026-04-08T05:47:57.776Z] [INFO ] Started  :  2026-04-08T05:47:57.776Z
+[2026-04-08T05:47:57.777Z] [INFO ] DB       :  rp3_prod
+[2026-04-08T05:47:57.778Z] [INFO ] Schema   :  verticalmarket
+[2026-04-08T05:47:57.778Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3_prod_environment-08-04-2026-11-15-21AM\rp3_prod-08-04-2026-11-15-22AM\verticalmarket
+[2026-04-08T05:47:57.779Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3_prod_environment-08-04-2026-11-15-21AM\rp3_prod-08-04-2026-11-15-22AM\verticalmarket\dump_verticalmarket.dump
+[2026-04-08T05:48:48.488Z] [OK   ] Custom dump complete  |  size: 1152.6 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3_prod_environment-08-04-2026-11-15-21AM\rp3_prod-08-04-2026-11-15-22AM\verticalmarket\dump_verticalmarket.dump
+[2026-04-08T05:48:48.489Z] [INFO ] Finished :  2026-04-08T05:48:48.489Z  |  status: OK

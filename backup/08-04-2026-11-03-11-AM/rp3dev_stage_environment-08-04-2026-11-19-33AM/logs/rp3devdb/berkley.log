@@ -1,0 +1,17 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / berkley
+────────────────────────────────────────────────────────────
+[2026-04-08T05:49:36.031Z] [INFO ] Started  :  2026-04-08T05:49:36.031Z
+[2026-04-08T05:49:36.033Z] [INFO ] DB       :  rp3devdb
+[2026-04-08T05:49:36.034Z] [INFO ] Schema   :  berkley
+[2026-04-08T05:49:36.036Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\berkley
+[2026-04-08T05:49:36.037Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\berkley\dump_berkley.dump
+[2026-04-08T05:53:22.186Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: query failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pg_dump: detail: Query was: COPY berkley.company_compliances (id, company_id, compliance_type_id, status, submitted_at, submitted_by, approved_at, approved_by, expiry_date, remarks, meta_data, created_at, updated_at, approver_status, rejected, rejected_by, rejected_on, rejection_reason) TO stdout;
+[2026-04-08T05:53:22.188Z] [INFO ] Finished :  2026-04-08T05:53:22.187Z  |  status: FAILED

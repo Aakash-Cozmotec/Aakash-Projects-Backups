@@ -1,0 +1,122 @@
+
+────────────────────────────────────────────────────────────
+  Connection: rp3dev_stage_environment
+────────────────────────────────────────────────────────────
+[2026-04-08T05:49:33.497Z] [INFO ] Run started    :  2026-04-08T05:49:33.496Z
+[2026-04-08T05:49:33.497Z] [INFO ] Connection     :  rp3dev_stage_environment
+[2026-04-08T05:49:33.498Z] [INFO ] Host           :  rp3-db-do-user-14077292-0.f.db.ondigitalocean.com:25060
+[2026-04-08T05:49:33.498Z] [INFO ] User           :  rp3dev
+[2026-04-08T05:49:33.498Z] [INFO ] Run root       :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM
+[2026-04-08T05:49:33.499Z] [INFO ] Backup folder  :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM
+[2026-04-08T05:49:33.500Z] [INFO ] Log file       :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\logs\run.log
+[2026-04-08T05:49:34.871Z] [INFO ] Databases on server (6): _dodb, defaultdb, rp3_prod, rp3_tenants_prod, rp3devdb, rp3tenantsdevdb
+[2026-04-08T05:49:34.872Z] [INFO ] Filtered to (2): rp3devdb, rp3tenantsdevdb
+[2026-04-08T05:49:34.872Z] [INFO ] --- Starting database: rp3devdb
+
+────────────────────────────────────────────────────────────
+  Database: rp3devdb
+────────────────────────────────────────────────────────────
+[2026-04-08T05:49:34.874Z] [INFO ] Started   :  2026-04-08T05:49:34.874Z
+[2026-04-08T05:49:34.875Z] [INFO ] Database  :  rp3devdb
+[2026-04-08T05:49:34.875Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM
+[2026-04-08T05:49:36.026Z] [INFO ] Schemas found (5): berkley, public, rp, sabio, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / berkley
+────────────────────────────────────────────────────────────
+[2026-04-08T05:49:36.031Z] [INFO ] Started  :  2026-04-08T05:49:36.031Z
+[2026-04-08T05:49:36.033Z] [INFO ] DB       :  rp3devdb
+[2026-04-08T05:49:36.034Z] [INFO ] Schema   :  berkley
+[2026-04-08T05:49:36.036Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\berkley
+[2026-04-08T05:49:36.037Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\berkley\dump_berkley.dump
+[2026-04-08T05:53:22.186Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: query failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pg_dump: detail: Query was: COPY berkley.company_compliances (id, company_id, compliance_type_id, status, submitted_at, submitted_by, approved_at, approved_by, expiry_date, remarks, meta_data, created_at, updated_at, approver_status, rejected, rejected_by, rejected_on, rejection_reason) TO stdout;
+[2026-04-08T05:53:22.188Z] [INFO ] Finished :  2026-04-08T05:53:22.187Z  |  status: FAILED
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / public
+────────────────────────────────────────────────────────────
+[2026-04-08T05:53:22.193Z] [INFO ] Started  :  2026-04-08T05:53:22.193Z
+[2026-04-08T05:53:22.196Z] [INFO ] DB       :  rp3devdb
+[2026-04-08T05:53:22.197Z] [INFO ] Schema   :  public
+[2026-04-08T05:53:22.200Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\public
+[2026-04-08T05:53:22.202Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\public\dump_public.dump
+[2026-04-08T05:54:18.643Z] [OK   ] Custom dump complete  |  size: 1.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\public\dump_public.dump
+[2026-04-08T05:54:18.645Z] [INFO ] Finished :  2026-04-08T05:54:18.645Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / rp
+────────────────────────────────────────────────────────────
+[2026-04-08T05:54:18.652Z] [INFO ] Started  :  2026-04-08T05:54:18.651Z
+[2026-04-08T05:54:18.655Z] [INFO ] DB       :  rp3devdb
+[2026-04-08T05:54:18.657Z] [INFO ] Schema   :  rp
+[2026-04-08T05:54:18.659Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\rp
+[2026-04-08T05:54:18.662Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\rp\dump_rp.dump
+[2026-04-08T05:58:57.273Z] [OK   ] Custom dump complete  |  size: 900.7 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\rp\dump_rp.dump
+[2026-04-08T05:58:57.274Z] [INFO ] Finished :  2026-04-08T05:58:57.274Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / sabio
+────────────────────────────────────────────────────────────
+[2026-04-08T05:58:57.279Z] [INFO ] Started  :  2026-04-08T05:58:57.279Z
+[2026-04-08T05:58:57.281Z] [INFO ] DB       :  rp3devdb
+[2026-04-08T05:58:57.283Z] [INFO ] Schema   :  sabio
+[2026-04-08T05:58:57.284Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\sabio
+[2026-04-08T05:58:57.286Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\sabio\dump_sabio.dump
+[2026-04-08T05:59:43.616Z] [OK   ] Custom dump complete  |  size: 1304.1 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\sabio\dump_sabio.dump
+[2026-04-08T05:59:43.617Z] [INFO ] Finished :  2026-04-08T05:59:43.617Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / verticalmarket
+────────────────────────────────────────────────────────────
+[2026-04-08T05:59:43.621Z] [INFO ] Started  :  2026-04-08T05:59:43.621Z
+[2026-04-08T05:59:43.623Z] [INFO ] DB       :  rp3devdb
+[2026-04-08T05:59:43.624Z] [INFO ] Schema   :  verticalmarket
+[2026-04-08T05:59:43.625Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\verticalmarket
+[2026-04-08T05:59:43.627Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\verticalmarket\dump_verticalmarket.dump
+[2026-04-08T06:00:33.108Z] [OK   ] Custom dump complete  |  size: 971.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3devdb-08-04-2026-11-19-34AM\verticalmarket\dump_verticalmarket.dump
+[2026-04-08T06:00:33.109Z] [INFO ] Finished :  2026-04-08T06:00:33.109Z  |  status: OK
+[2026-04-08T06:00:33.110Z] [INFO ] Schemas backed up: 4 / 5
+[2026-04-08T06:00:33.111Z] [INFO ] Finished  :  2026-04-08T06:00:33.111Z  |  status: PARTIAL
+[2026-04-08T06:00:33.112Z] [INFO ] --- Finished database: rp3devdb  |  status: FAILED/PARTIAL
+[2026-04-08T06:00:33.112Z] [INFO ] --- Starting database: rp3tenantsdevdb
+
+────────────────────────────────────────────────────────────
+  Database: rp3tenantsdevdb
+────────────────────────────────────────────────────────────
+[2026-04-08T06:00:33.114Z] [INFO ] Started   :  2026-04-08T06:00:33.114Z
+[2026-04-08T06:00:33.114Z] [INFO ] Database  :  rp3tenantsdevdb
+[2026-04-08T06:00:33.115Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3tenantsdevdb-08-04-2026-11-30-33AM
+[2026-04-08T06:00:34.263Z] [INFO ] Schemas found (2): public, rp
+
+────────────────────────────────────────────────────────────
+  Schema: rp3tenantsdevdb / public
+────────────────────────────────────────────────────────────
+[2026-04-08T06:00:34.269Z] [INFO ] Started  :  2026-04-08T06:00:34.269Z
+[2026-04-08T06:00:34.271Z] [INFO ] DB       :  rp3tenantsdevdb
+[2026-04-08T06:00:34.273Z] [INFO ] Schema   :  public
+[2026-04-08T06:00:34.275Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3tenantsdevdb-08-04-2026-11-30-33AM\public
+[2026-04-08T06:00:34.277Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3tenantsdevdb-08-04-2026-11-30-33AM\public\dump_public.dump
+[2026-04-08T06:00:46.422Z] [OK   ] Custom dump complete  |  size: 1.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3tenantsdevdb-08-04-2026-11-30-33AM\public\dump_public.dump
+[2026-04-08T06:00:46.424Z] [INFO ] Finished :  2026-04-08T06:00:46.423Z  |  status: OK
+
+────────────────────────────────────────────────────────────
+  Schema: rp3tenantsdevdb / rp
+────────────────────────────────────────────────────────────
+[2026-04-08T06:00:46.430Z] [INFO ] Started  :  2026-04-08T06:00:46.429Z
+[2026-04-08T06:00:46.431Z] [INFO ] DB       :  rp3tenantsdevdb
+[2026-04-08T06:00:46.433Z] [INFO ] Schema   :  rp
+[2026-04-08T06:00:46.434Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3tenantsdevdb-08-04-2026-11-30-33AM\rp
+[2026-04-08T06:00:46.437Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3tenantsdevdb-08-04-2026-11-30-33AM\rp\dump_rp.dump
+[2026-04-08T06:01:03.669Z] [OK   ] Custom dump complete  |  size: 61.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\08-04-2026-11-03-11-AM\rp3dev_stage_environment-08-04-2026-11-19-33AM\rp3tenantsdevdb-08-04-2026-11-30-33AM\rp\dump_rp.dump
+[2026-04-08T06:01:03.670Z] [INFO ] Finished :  2026-04-08T06:01:03.670Z  |  status: OK
+[2026-04-08T06:01:03.672Z] [INFO ] Schemas backed up: 2 / 2
+[2026-04-08T06:01:03.672Z] [INFO ] Finished  :  2026-04-08T06:01:03.672Z  |  status: OK
+[2026-04-08T06:01:03.673Z] [INFO ] --- Finished database: rp3tenantsdevdb  |  status: OK
+[2026-04-08T06:01:03.673Z] [INFO ] Databases backed up: 1 / 2
+[2026-04-08T06:01:03.674Z] [INFO ] Run finished   :  2026-04-08T06:01:03.673Z  |  status: PARTIAL/FAILED
