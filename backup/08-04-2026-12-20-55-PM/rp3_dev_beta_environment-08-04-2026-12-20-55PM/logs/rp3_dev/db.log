@@ -1,0 +1,34 @@
+
+────────────────────────────────────────────────────────────
+  Database: rp3_dev
+────────────────────────────────────────────────────────────
+[2026-04-08T06:51:20.508Z] [INFO ] Started   :  2026-04-08T06:51:20.508Z
+[2026-04-08T06:51:20.509Z] [INFO ] Database  :  rp3_dev
+[2026-04-08T06:51:20.510Z] [INFO ] Folder    :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-12-20-55-PM\rp3_dev_beta_environment-08-04-2026-12-20-55PM\rp3_dev-08-04-2026-12-21-20PM
+[2026-04-08T06:51:21.925Z] [INFO ] Schemas found (11): app, berkley, public, realtime, recruitpro, rp, sabeo, sabeomigration, sabio, vantage, verticalmarket
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / app
+────────────────────────────────────────────────────────────
+[2026-04-08T06:51:21.931Z] [INFO ] Started  :  2026-04-08T06:51:21.931Z
+[2026-04-08T06:51:21.933Z] [INFO ] DB       :  rp3_dev
+[2026-04-08T06:51:21.935Z] [INFO ] Schema   :  app
+[2026-04-08T06:51:21.937Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-12-20-55-PM\rp3_dev_beta_environment-08-04-2026-12-20-55PM\rp3_dev-08-04-2026-12-21-20PM\app
+[2026-04-08T06:51:21.940Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-12-20-55-PM\rp3_dev_beta_environment-08-04-2026-12-20-55PM\rp3_dev-08-04-2026-12-21-20PM\app\dump_app.dump
+[2026-04-08T07:05:07.553Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: query failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pg_dump: detail: Query was: SELECT description, classoid, objoid, objsubid FROM pg_catalog.pg_description ORDER BY classoid, objoid, objsubid
+[2026-04-08T07:05:07.577Z] [INFO ] Finished :  2026-04-08T07:05:07.554Z  |  status: FAILED
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / berkley
+────────────────────────────────────────────────────────────
+[2026-04-08T07:05:07.637Z] [INFO ] Started  :  2026-04-08T07:05:07.618Z
+[2026-04-08T07:05:07.653Z] [INFO ] DB       :  rp3_dev
+[2026-04-08T07:05:07.668Z] [INFO ] Schema   :  berkley
+[2026-04-08T07:05:07.688Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-12-20-55-PM\rp3_dev_beta_environment-08-04-2026-12-20-55PM\rp3_dev-08-04-2026-12-21-20PM\berkley
+[2026-04-08T07:05:07.704Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\08-04-2026-12-20-55-PM\rp3_dev_beta_environment-08-04-2026-12-20-55PM\rp3_dev-08-04-2026-12-21-20PM\berkley\dump_berkley.dump
