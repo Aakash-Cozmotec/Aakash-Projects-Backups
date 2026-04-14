@@ -1,0 +1,13 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / vantage
+────────────────────────────────────────────────────────────
+[2026-04-14T10:47:50.627Z] [INFO ] Started  :  2026-04-14T10:47:50.627Z
+[2026-04-14T10:47:50.629Z] [INFO ] DB       :  rp3_dev
+[2026-04-14T10:47:50.630Z] [INFO ] Schema   :  vantage
+[2026-04-14T10:47:50.631Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3_dev_beta_environment-14-04-2026-04-08-08PM\rp3_dev-14-04-2026-04-08-10PM\vantage
+[2026-04-14T10:47:50.644Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3_dev_beta_environment-14-04-2026-04-08-08PM\rp3_dev-14-04-2026-04-08-10PM\vantage\dump_vantage.dump
+[2026-04-14T10:47:51.151Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: connection to server at "159.65.197.148", port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+[2026-04-14T10:47:51.152Z] [INFO ] Finished :  2026-04-14T10:47:51.152Z  |  status: FAILED

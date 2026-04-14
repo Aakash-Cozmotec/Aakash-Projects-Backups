@@ -1,0 +1,13 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / sabeomigration
+────────────────────────────────────────────────────────────
+[2026-04-14T10:46:26.904Z] [INFO ] Started  :  2026-04-14T10:46:26.904Z
+[2026-04-14T10:46:26.905Z] [INFO ] DB       :  rp3_dev
+[2026-04-14T10:46:26.906Z] [INFO ] Schema   :  sabeomigration
+[2026-04-14T10:46:26.907Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3_dev_beta_environment-14-04-2026-04-08-08PM\rp3_dev-14-04-2026-04-08-10PM\sabeomigration
+[2026-04-14T10:46:26.909Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3_dev_beta_environment-14-04-2026-04-08-08PM\rp3_dev-14-04-2026-04-08-10PM\sabeomigration\dump_sabeomigration.dump
+[2026-04-14T10:47:49.425Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: Dumping the contents of table "timesheet_rate_snapshots" failed: PQgetResult() failed.
+pg_dump: detail: Error message from server: FATAL:  terminating connection due to administrator command
+pg_dump: detail: Command was: COPY sabeomigration.timesheet_rate_snapshots (id, rate_type, rate_frequency, pay_amount, bill_amount, pay_currency, bill_currency, margin_percent, markup_percent, cost_center_id, cost_center_code, cost_center_name, created_at, created_by) TO stdout;
+[2026-04-14T10:47:49.426Z] [INFO ] Finished :  2026-04-14T10:47:49.426Z  |  status: FAILED

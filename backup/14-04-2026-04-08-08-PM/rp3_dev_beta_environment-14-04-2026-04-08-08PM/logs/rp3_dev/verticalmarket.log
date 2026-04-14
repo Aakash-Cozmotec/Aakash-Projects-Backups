@@ -1,0 +1,12 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_dev / verticalmarket
+────────────────────────────────────────────────────────────
+[2026-04-14T10:47:51.162Z] [INFO ] Started  :  2026-04-14T10:47:51.162Z
+[2026-04-14T10:47:51.163Z] [INFO ] DB       :  rp3_dev
+[2026-04-14T10:47:51.165Z] [INFO ] Schema   :  verticalmarket
+[2026-04-14T10:47:51.166Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3_dev_beta_environment-14-04-2026-04-08-08PM\rp3_dev-14-04-2026-04-08-10PM\verticalmarket
+[2026-04-14T10:47:51.168Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3_dev_beta_environment-14-04-2026-04-08-08PM\rp3_dev-14-04-2026-04-08-10PM\verticalmarket\dump_verticalmarket.dump
+[2026-04-14T10:48:11.976Z] [ERROR] pg_dump -Fc FAILED: pg_dump: error: connection to server at "159.65.197.148", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+[2026-04-14T10:48:11.978Z] [INFO ] Finished :  2026-04-14T10:48:11.978Z  |  status: FAILED

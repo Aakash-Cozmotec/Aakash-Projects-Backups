@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3devdb / rp
+────────────────────────────────────────────────────────────
+[2026-04-14T10:55:46.500Z] [INFO ] Started  :  2026-04-14T10:55:46.500Z
+[2026-04-14T10:55:46.502Z] [INFO ] DB       :  rp3devdb
+[2026-04-14T10:55:46.504Z] [INFO ] Schema   :  rp
+[2026-04-14T10:55:46.506Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3dev_stage_environment-14-04-2026-04-24-44PM\rp3devdb-14-04-2026-04-24-45PM\rp
+[2026-04-14T10:55:46.508Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3dev_stage_environment-14-04-2026-04-24-44PM\rp3devdb-14-04-2026-04-24-45PM\rp\dump_rp.dump
+[2026-04-14T10:56:40.107Z] [OK   ] Custom dump complete  |  size: 900.7 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3dev_stage_environment-14-04-2026-04-24-44PM\rp3devdb-14-04-2026-04-24-45PM\rp\dump_rp.dump
+[2026-04-14T10:56:40.109Z] [INFO ] Finished :  2026-04-14T10:56:40.109Z  |  status: OK

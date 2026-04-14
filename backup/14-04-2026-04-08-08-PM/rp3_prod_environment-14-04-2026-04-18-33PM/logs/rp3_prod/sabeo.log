@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / sabeo
+────────────────────────────────────────────────────────────
+[2026-04-14T10:50:38.987Z] [INFO ] Started  :  2026-04-14T10:50:38.987Z
+[2026-04-14T10:50:38.988Z] [INFO ] DB       :  rp3_prod
+[2026-04-14T10:50:38.989Z] [INFO ] Schema   :  sabeo
+[2026-04-14T10:50:38.991Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3_prod_environment-14-04-2026-04-18-33PM\rp3_prod-14-04-2026-04-18-34PM\sabeo
+[2026-04-14T10:50:38.993Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3_prod_environment-14-04-2026-04-18-33PM\rp3_prod-14-04-2026-04-18-34PM\sabeo\dump_sabeo.dump
+[2026-04-14T10:51:32.082Z] [OK   ] Custom dump complete  |  size: 1280.6 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\14-04-2026-04-08-08-PM\rp3_prod_environment-14-04-2026-04-18-33PM\rp3_prod-14-04-2026-04-18-34PM\sabeo\dump_sabeo.dump
+[2026-04-14T10:51:32.083Z] [INFO ] Finished :  2026-04-14T10:51:32.083Z  |  status: OK
