@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / sabeomigration
+────────────────────────────────────────────────────────────
+[2026-04-20T07:40:52.893Z] [INFO ] Started  :  2026-04-20T07:40:52.893Z
+[2026-04-20T07:40:52.894Z] [INFO ] DB       :  rp3_prod
+[2026-04-20T07:40:52.895Z] [INFO ] Schema   :  sabeomigration
+[2026-04-20T07:40:52.897Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\20-04-2026-12-44-25-PM\rp3_prod_environment-20-04-2026-01-01-51PM\rp3_prod-20-04-2026-01-01-53PM\sabeomigration
+[2026-04-20T07:40:52.898Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\20-04-2026-12-44-25-PM\rp3_prod_environment-20-04-2026-01-01-51PM\rp3_prod-20-04-2026-01-01-53PM\sabeomigration\dump_sabeomigration.dump
+[2026-04-20T07:43:33.235Z] [OK   ] Custom dump complete  |  size: 41696.9 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\20-04-2026-12-44-25-PM\rp3_prod_environment-20-04-2026-01-01-51PM\rp3_prod-20-04-2026-01-01-53PM\sabeomigration\dump_sabeomigration.dump
+[2026-04-20T07:43:33.237Z] [INFO ] Finished :  2026-04-20T07:43:33.237Z  |  status: OK

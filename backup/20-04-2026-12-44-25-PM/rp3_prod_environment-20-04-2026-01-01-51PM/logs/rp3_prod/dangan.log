@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_prod / dangan
+────────────────────────────────────────────────────────────
+[2026-04-20T07:33:02.981Z] [INFO ] Started  :  2026-04-20T07:33:02.981Z
+[2026-04-20T07:33:02.982Z] [INFO ] DB       :  rp3_prod
+[2026-04-20T07:33:02.983Z] [INFO ] Schema   :  dangan
+[2026-04-20T07:33:02.985Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\20-04-2026-12-44-25-PM\rp3_prod_environment-20-04-2026-01-01-51PM\rp3_prod-20-04-2026-01-01-53PM\dangan
+[2026-04-20T07:33:02.986Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\20-04-2026-12-44-25-PM\rp3_prod_environment-20-04-2026-01-01-51PM\rp3_prod-20-04-2026-01-01-53PM\dangan\dump_dangan.dump
+[2026-04-20T07:34:19.026Z] [OK   ] Custom dump complete  |  size: 1229.6 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\20-04-2026-12-44-25-PM\rp3_prod_environment-20-04-2026-01-01-51PM\rp3_prod-20-04-2026-01-01-53PM\dangan\dump_dangan.dump
+[2026-04-20T07:34:19.027Z] [INFO ] Finished :  2026-04-20T07:34:19.027Z  |  status: OK

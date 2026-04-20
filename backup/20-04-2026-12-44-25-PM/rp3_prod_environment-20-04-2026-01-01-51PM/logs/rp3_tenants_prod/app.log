@@ -1,0 +1,11 @@
+
+────────────────────────────────────────────────────────────
+  Schema: rp3_tenants_prod / app
+────────────────────────────────────────────────────────────
+[2026-04-20T07:44:51.001Z] [INFO ] Started  :  2026-04-20T07:44:51.001Z
+[2026-04-20T07:44:51.003Z] [INFO ] DB       :  rp3_tenants_prod
+[2026-04-20T07:44:51.004Z] [INFO ] Schema   :  app
+[2026-04-20T07:44:51.005Z] [INFO ] Folder   :  C:\Users\ftt\working\By-Mistake\backup\20-04-2026-12-44-25-PM\rp3_prod_environment-20-04-2026-01-01-51PM\rp3_tenants_prod-20-04-2026-01-14-49PM\app
+[2026-04-20T07:44:51.006Z] [INFO ] pg_dump -Fc  →  C:\Users\ftt\working\By-Mistake\backup\20-04-2026-12-44-25-PM\rp3_prod_environment-20-04-2026-01-01-51PM\rp3_tenants_prod-20-04-2026-01-14-49PM\app\dump_app.dump
+[2026-04-20T07:45:50.041Z] [OK   ] Custom dump complete  |  size: 928.2 KB  |  file: C:\Users\ftt\working\By-Mistake\backup\20-04-2026-12-44-25-PM\rp3_prod_environment-20-04-2026-01-01-51PM\rp3_tenants_prod-20-04-2026-01-14-49PM\app\dump_app.dump
+[2026-04-20T07:45:50.042Z] [INFO ] Finished :  2026-04-20T07:45:50.042Z  |  status: OK
